@@ -1,0 +1,10 @@
+export type { ILocationService } from './ILocationService.ts';
+export type { IWeatherService } from './IWeatherService.ts';
+export type { ISoilService } from './ISoilService.ts';
+export type { ICropKnowledgeService } from './ICropKnowledgeService.ts';
+export type { ICropIntelligenceService } from './ICropIntelligenceService.ts';
+export type { ICropRotationService } from './ICropRotationService.ts';
+export type { IAiAssistantService } from './IAiAssistantService.ts';
+export type { IFarmEnvironmentalContextService, AssembleContextOptions } from './IFarmEnvironmentalContextService.ts';
+export type { IEvapotranspirationService } from './IEvapotranspirationService.ts';
+export type { IVegetationService } from './IVegetationService.ts';

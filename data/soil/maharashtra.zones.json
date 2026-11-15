@@ -1,0 +1,41 @@
+[
+  {
+    "id": "in-mh-deep-vertisol",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "zoneName": "Deep Black Cotton Soils (Deccan Basalt Plains)",
+    "faoSoilGroup": "Vertisols",
+    "localClassification": "Deep Regur / Kali Soil",
+    "typicalTexture": "Clay to Clay Loam",
+    "drainageCharacteristics": "Imperfectly drained; prone to waterlogging in heavy rains and deep cracking when dry",
+    "waterHoldingCapacity": "high",
+    "typicalPhRange": [7.4, 8.5],
+    "managementNotes": "Ideal for Rabi moisture-retentive crops such as Chickpea and Rabi Sorghum; avoid surface ponding during Kharif Soybean."
+  },
+  {
+    "id": "in-mh-medium-inceptisol",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "zoneName": "Medium Black Plateau Soils",
+    "faoSoilGroup": "Inceptisols / Vertic Inceptisols",
+    "localClassification": "Madhyam Kali Soil",
+    "typicalTexture": "Clay Loam to Silty Clay Loam",
+    "drainageCharacteristics": "Moderately well drained",
+    "waterHoldingCapacity": "moderate",
+    "typicalPhRange": [7.0, 8.2],
+    "managementNotes": "Supports Soybean-Chickpea or Cotton-Pigeon Pea systems when supplemented with organic matter."
+  },
+  {
+    "id": "in-mh-shallow-entisol",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "zoneName": "Shallow Upland & Scarcity Zone Soils",
+    "faoSoilGroup": "Entisols / Lithic Ustorthents",
+    "localClassification": "Halki / Barad Soil",
+    "typicalTexture": "Sandy Loam to Gravelly Loam",
+    "drainageCharacteristics": "Excessively drained with rapid moisture loss",
+    "waterHoldingCapacity": "low",
+    "typicalPhRange": [6.5, 7.8],
+    "managementNotes": "Best matched to short-duration drought-hardy crops like Pearl Millet and Pigeon Pea with soil moisture conservation."
+  }
+]

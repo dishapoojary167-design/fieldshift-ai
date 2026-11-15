@@ -1,0 +1,36 @@
+[
+  {
+    "id": "in-mh-rule-legume-cereal",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "title": "Legume-Cereal Nitrogen Replenishment Cycle",
+    "ruleType": "nitrogen_replenishment",
+    "precedingCategories": ["cereal", "millet", "fiber"],
+    "recommendedFollowingCategories": ["pulse", "oilseed"],
+    "rationale": "Following nutrient-extractive cereals, millets, or cotton with nitrogen-fixing pulses (Chickpea, Pigeon Pea) restores biological nitrogen reserves.",
+    "soilHealthImpact": "Improves available soil nitrogen and organic residue for the subsequent monsoon season."
+  },
+  {
+    "id": "in-mh-rule-cotton-break",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "title": "Continuous Cotton Pest & Disease Break",
+    "ruleType": "pest_disease_break",
+    "precedingCategories": ["fiber"],
+    "recommendedFollowingCategories": ["pulse", "millet", "oilseed"],
+    "excludedImmediateRepeats": ["cotton"],
+    "rationale": "Avoid planting cotton on the same parcel in consecutive years to disrupt pink bollworm life cycles and soil-borne wilt pressure.",
+    "soilHealthImpact": "Reduces pathogen carryover and diversifies root exudates."
+  },
+  {
+    "id": "in-mh-rule-residual-moisture",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "title": "Post-Monsoon Residual Moisture Matching",
+    "ruleType": "moisture_conservation",
+    "precedingCategories": ["oilseed", "millet"],
+    "recommendedFollowingCategories": ["pulse", "millet"],
+    "rationale": "Short-duration Kharif crops harvested by October preserve sufficient profile moisture in Vertisols for low-water Rabi Chickpea or Rabi Sorghum.",
+    "soilHealthImpact": "Maximizes seasonal water productivity without groundwater over-extraction."
+  }
+]

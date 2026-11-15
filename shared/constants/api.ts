@@ -1,0 +1,20 @@
+export const APP_NAME = 'FieldShift AI';
+export const CHALLENGE_NAME = 'NASA Space Apps 2026 — Field Shift: Adapting Farms with NASA Data';
+export const APP_VERSION = '0.1.0';
+export const API_VERSION = 'v1';
+export const API_PREFIX = '/api/v1';
+
+export const ERROR_CODES = {
+  VALIDATION_ERROR: 'VALIDATION_ERROR',
+  NOT_FOUND: 'NOT_FOUND',
+  INTERNAL_ERROR: 'INTERNAL_ERROR',
+  EXTERNAL_SERVICE_ERROR: 'EXTERNAL_SERVICE_ERROR',
+  NOT_IMPLEMENTED: 'NOT_IMPLEMENTED',
+  CONFIGURATION_ERROR: 'CONFIGURATION_ERROR',
+  RATE_LIMITED: 'RATE_LIMITED',
+  SERVICE_TIMEOUT: 'SERVICE_TIMEOUT',
+  JOB_NOT_READY: 'JOB_NOT_READY',
+  JOB_EXPIRED: 'JOB_EXPIRED',
+} as const;
+
+export type ErrorCode = (typeof ERROR_CODES)[keyof typeof ERROR_CODES];

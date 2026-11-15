@@ -1,0 +1,257 @@
+[
+  {
+    "id": "acz-01-western-himalayan",
+    "zoneNumber": 1,
+    "name": "Western Himalayan Region",
+    "shortName": "Western Himalayan",
+    "statesAndUts": ["Jammu & Kashmir", "Ladakh", "Himachal Pradesh", "Uttarakhand"],
+    "typicalSoilOrders": ["Inceptisols", "Alfisols", "Entisols", "Mollisols"],
+    "annualRainfallMmRange": [1000, 2000],
+    "climateSummary": "Temperate to sub-tropical montane climate with cold winters, valley microclimates, and summer monsoon rain in lower hills.",
+    "majorCrops": ["Maize", "Wheat", "Rice", "Finger Millet", "Barley"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-02-eastern-himalayan",
+    "zoneNumber": 2,
+    "name": "Eastern Himalayan Region",
+    "shortName": "Eastern Himalayan",
+    "statesAndUts": ["Assam", "Sikkim", "Arunachal Pradesh", "Nagaland", "Manipur", "Mizoram", "Tripura", "Meghalaya", "West Bengal"],
+    "typicalSoilOrders": ["Ultisols", "Inceptisols", "Alfisols"],
+    "annualRainfallMmRange": [2000, 4000],
+    "climateSummary": "High-rainfall humid subtropical to sub-temperate hills and Brahmaputra valley with acidic soils.",
+    "majorCrops": ["Rice", "Maize", "Finger Millet", "Mustard", "Soybean"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-03-lower-gangetic-plains",
+    "zoneNumber": 3,
+    "name": "Lower Gangetic Plains Region",
+    "shortName": "Lower Gangetic Plains",
+    "statesAndUts": ["West Bengal"],
+    "typicalSoilOrders": ["Entisols", "Inceptisols", "Alfisols"],
+    "annualRainfallMmRange": [1300, 1800],
+    "climateSummary": "Hot humid alluvial deltaic plains with abundant Kharif monsoon rain and mild winters.",
+    "majorCrops": ["Rice", "Indian Mustard", "Wheat", "Maize", "Jute"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-04-middle-gangetic-plains",
+    "zoneNumber": 4,
+    "name": "Middle Gangetic Plains Region",
+    "shortName": "Middle Gangetic Plains",
+    "statesAndUts": ["Bihar", "Uttar Pradesh"],
+    "typicalSoilOrders": ["Entisols", "Inceptisols"],
+    "annualRainfallMmRange": [1000, 1400],
+    "climateSummary": "Sub-humid fertile alluvial plains along the middle Ganga basin supporting intensive Kharif-Rabi double cropping.",
+    "majorCrops": ["Rice", "Wheat", "Maize", "Chickpea", "Pigeonpea", "Indian Mustard"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-05-upper-gangetic-plains",
+    "zoneNumber": 5,
+    "name": "Upper Gangetic Plains Region",
+    "shortName": "Upper Gangetic Plains",
+    "statesAndUts": ["Uttar Pradesh", "Uttarakhand"],
+    "typicalSoilOrders": ["Inceptisols", "Entisols", "Alfisols"],
+    "annualRainfallMmRange": [750, 1100],
+    "climateSummary": "Semi-arid to sub-humid irrigated alluvial plains with distinct hot summers and cool Rabi winters.",
+    "majorCrops": ["Wheat", "Rice", "Maize", "Pearl Millet", "Indian Mustard", "Pigeonpea"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-06-trans-gangetic-plains",
+    "zoneNumber": 6,
+    "name": "Trans-Gangetic Plains Region",
+    "shortName": "Trans-Gangetic Plains",
+    "statesAndUts": ["Punjab", "Haryana", "Delhi", "Chandigarh", "Rajasthan"],
+    "typicalSoilOrders": ["Inceptisols", "Aridisols", "Entisols"],
+    "annualRainfallMmRange": [400, 750],
+    "climateSummary": "Semi-arid irrigated Indo-Gangetic plain with extreme winter-summer thermal amplitude and extensive canal/groundwater irrigation.",
+    "majorCrops": ["Wheat", "Rice", "Maize", "Pearl Millet", "Indian Mustard", "Chickpea"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-07-eastern-plateau-hills",
+    "zoneNumber": 7,
+    "name": "Eastern Plateau and Hills Region",
+    "shortName": "Eastern Plateau & Hills",
+    "statesAndUts": ["Chhattisgarh", "Jharkhand", "Odisha", "Madhya Pradesh", "West Bengal"],
+    "typicalSoilOrders": ["Alfisols", "Ultisols", "Vertisols", "Inceptisols"],
+    "annualRainfallMmRange": [1100, 1500],
+    "climateSummary": "Sub-humid undulating plateau with red/yellow and lateritic uplands and medium lowland soils.",
+    "majorCrops": ["Rice", "Maize", "Finger Millet", "Pigeonpea", "Chickpea", "Groundnut", "Soybean"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-08-central-plateau-hills",
+    "zoneNumber": 8,
+    "name": "Central Plateau and Hills Region",
+    "shortName": "Central Plateau & Hills",
+    "statesAndUts": ["Madhya Pradesh", "Rajasthan", "Uttar Pradesh"],
+    "typicalSoilOrders": ["Vertisols", "Inceptisols", "Alfisols"],
+    "annualRainfallMmRange": [600, 1100],
+    "climateSummary": "Semi-arid to sub-humid Malwa and Bundelkhand plateaus dominated by deep black clay-loam (Vertisol) and mixed red soils.",
+    "majorCrops": ["Soybean", "Wheat", "Chickpea", "Sorghum", "Indian Mustard", "Maize", "Pigeonpea"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-09-western-plateau-hills",
+    "zoneNumber": 9,
+    "name": "Western Plateau and Hills Region",
+    "shortName": "Western Plateau & Hills",
+    "statesAndUts": ["Maharashtra", "Madhya Pradesh"],
+    "typicalSoilOrders": ["Vertisols", "Inceptisols", "Entisols"],
+    "annualRainfallMmRange": [550, 1000],
+    "climateSummary": "Semi-arid Deccan basaltic plateau with rain-shadow dry belts and black cotton (Vertisol) soils.",
+    "majorCrops": ["Soybean", "Sorghum", "Pearl Millet", "Pigeonpea", "Chickpea", "Groundnut"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-10-southern-plateau-hills",
+    "zoneNumber": 10,
+    "name": "Southern Plateau and Hills Region",
+    "shortName": "Southern Plateau & Hills",
+    "statesAndUts": ["Karnataka", "Telangana", "Andhra Pradesh", "Tamil Nadu"],
+    "typicalSoilOrders": ["Alfisols", "Vertisols", "Inceptisols"],
+    "annualRainfallMmRange": [500, 950],
+    "climateSummary": "Semi-arid peninsular plateau with red sandy loams and pockets of black soils suited to rainfed millets and oilseeds.",
+    "majorCrops": ["Finger Millet", "Sorghum", "Maize", "Groundnut", "Pigeonpea", "Chickpea", "Rice"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-11-east-coast-plains",
+    "zoneNumber": 11,
+    "name": "East Coast Plains and Hills Region",
+    "shortName": "East Coast Plains & Hills",
+    "statesAndUts": ["Andhra Pradesh", "Odisha", "Tamil Nadu", "Puducherry"],
+    "typicalSoilOrders": ["Entisols", "Inceptisols", "Alfisols", "Vertisols"],
+    "annualRainfallMmRange": [900, 1500],
+    "climateSummary": "Sub-humid coastal deltas receiving both southwest and northeast monsoons with high paddy-pulse intensity.",
+    "majorCrops": ["Rice", "Groundnut", "Finger Millet", "Maize", "Sorghum"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-12-west-coast-plains",
+    "zoneNumber": 12,
+    "name": "West Coast Plains and Ghats Region",
+    "shortName": "West Coast Plains & Ghats",
+    "statesAndUts": ["Kerala", "Karnataka", "Goa", "Maharashtra", "Tamil Nadu"],
+    "typicalSoilOrders": ["Ultisols", "Oxisols", "Inceptisols"],
+    "annualRainfallMmRange": [2200, 3800],
+    "climateSummary": "Humid tropical coastal plains and Western Ghats with heavy monsoon precipitation and acidic lateritic soils.",
+    "majorCrops": ["Rice", "Finger Millet", "Groundnut"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-13-gujarat-plains-hills",
+    "zoneNumber": 13,
+    "name": "Gujarat Plains and Hills Region",
+    "shortName": "Gujarat Plains & Hills",
+    "statesAndUts": ["Gujarat", "Dadra & Nagar Haveli and Daman & Diu"],
+    "typicalSoilOrders": ["Vertisols", "Inceptisols", "Aridisols"],
+    "annualRainfallMmRange": [400, 1100],
+    "climateSummary": "Arid to sub-humid alluvial, medium black, and coastal plains with strong Kharif oilseed and millet production.",
+    "majorCrops": ["Groundnut", "Pearl Millet", "Wheat", "Indian Mustard", "Pigeonpea", "Sorghum"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-14-western-dry",
+    "zoneNumber": 14,
+    "name": "Western Dry Region",
+    "shortName": "Western Dry",
+    "statesAndUts": ["Rajasthan"],
+    "typicalSoilOrders": ["Aridisols", "Entisols"],
+    "annualRainfallMmRange": [150, 400],
+    "climateSummary": "Arid Thar desert climate with high evapotranspiration, sandy soils, erratic monsoon rains, and canal pockets.",
+    "majorCrops": ["Pearl Millet", "Sorghum", "Indian Mustard", "Chickpea"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  },
+  {
+    "id": "acz-15-island-region",
+    "zoneNumber": 15,
+    "name": "Island Region",
+    "shortName": "Island Region",
+    "statesAndUts": ["Andaman & Nicobar Islands", "Lakshadweep"],
+    "typicalSoilOrders": ["Inceptisols", "Entisols"],
+    "annualRainfallMmRange": [1600, 3100],
+    "climateSummary": "Equatorial humid maritime island climate with high rainfall and tropical valley rice cultivation.",
+    "majorCrops": ["Rice", "Maize"],
+    "source": {
+      "institute": "ICAR-IASRI / Planning Commission of India",
+      "title": "Agro-Climatic Regions of India (15-Zone Classification)",
+      "year": 1989,
+      "url": "https://www.iasri.res.in/"
+    }
+  }
+]

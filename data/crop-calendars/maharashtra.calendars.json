@@ -1,0 +1,93 @@
+[
+  {
+    "id": "in-mh-sorghum-kharif",
+    "cropId": "sorghum_jowar",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "agroClimaticZone": "Central Maharashtra Plateau",
+    "season": "kharif",
+    "sowingWindowMonths": [6, 7],
+    "harvestingWindowMonths": [10, 11],
+    "sowingWindowLabel": "Mid-June – Mid-July",
+    "harvestingWindowLabel": "October – November",
+    "criticalGrowthStages": ["Emergence", "Panicle Initiation", "Flowering", "Grain Filling"]
+  },
+  {
+    "id": "in-mh-sorghum-rabi",
+    "cropId": "sorghum_jowar",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "agroClimaticZone": "Scarcity Zone",
+    "season": "rabi",
+    "sowingWindowMonths": [9, 10],
+    "harvestingWindowMonths": [1, 2],
+    "sowingWindowLabel": "Mid-September – October",
+    "harvestingWindowLabel": "January – February",
+    "criticalGrowthStages": ["Establishment", "Booting", "Flowering", "Physiological Maturity"]
+  },
+  {
+    "id": "in-mh-bajra-kharif",
+    "cropId": "pearl_millet_bajra",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "agroClimaticZone": "Scarcity Zone",
+    "season": "kharif",
+    "sowingWindowMonths": [6, 7],
+    "harvestingWindowMonths": [9, 10],
+    "sowingWindowLabel": "June – July",
+    "harvestingWindowLabel": "September – October",
+    "criticalGrowthStages": ["Tillering", "Booting", "Anthesis", "Dough Stage"]
+  },
+  {
+    "id": "in-mh-tur-kharif",
+    "cropId": "pigeon_pea_tur",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "agroClimaticZone": "Central Vidarbha",
+    "season": "kharif",
+    "sowingWindowMonths": [6, 7],
+    "harvestingWindowMonths": [12, 1],
+    "sowingWindowLabel": "Mid-June – July",
+    "harvestingWindowLabel": "December – January",
+    "criticalGrowthStages": ["Vegetative", "Bud Initiation", "Flowering", "Pod Development"]
+  },
+  {
+    "id": "in-mh-chickpea-rabi",
+    "cropId": "chickpea_gram",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "agroClimaticZone": "Central Maharashtra Plateau",
+    "season": "rabi",
+    "sowingWindowMonths": [10, 11],
+    "harvestingWindowMonths": [2, 3],
+    "sowingWindowLabel": "October – November",
+    "harvestingWindowLabel": "February – March",
+    "criticalGrowthStages": ["Branching", "Pre-Flowering", "Pod Initiation", "Seed Fill"]
+  },
+  {
+    "id": "in-mh-soybean-kharif",
+    "cropId": "soybean",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "agroClimaticZone": "Central Vidarbha",
+    "season": "kharif",
+    "sowingWindowMonths": [6, 7],
+    "harvestingWindowMonths": [9, 10],
+    "sowingWindowLabel": "Mid-June – Early July",
+    "harvestingWindowLabel": "Late September – October",
+    "criticalGrowthStages": ["Emergence", "Flowering (R1-R2)", "Pod Fill (R5)", "Maturity"]
+  },
+  {
+    "id": "in-mh-cotton-kharif",
+    "cropId": "cotton",
+    "countryCode": "IN",
+    "regionCode": "IN-MH",
+    "agroClimaticZone": "Central Vidarbha",
+    "season": "kharif",
+    "sowingWindowMonths": [6, 7],
+    "harvestingWindowMonths": [11, 1],
+    "sowingWindowLabel": "June – Early July",
+    "harvestingWindowLabel": "November – January",
+    "criticalGrowthStages": ["Squaring", "Flowering", "Boll Formation", "Boll Opening"]
+  }
+]

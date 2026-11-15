@@ -1,0 +1,8 @@
+{
+  "name": "FieldShift AI",
+  "description": "Agricultural decision-support platform connecting NASA POWER, GPM IMERG, SMAP, and ISRIC SoilGrids observations with explainable crop recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

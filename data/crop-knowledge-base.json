@@ -1,0 +1,2565 @@
+[
+  {
+    "id": "soybean",
+    "cropName": "Soybean",
+    "localNames": ["Soya", "Bhat", "Bhatmas"],
+    "scientificName": "Glycine max",
+    "cropFamily": "Fabaceae",
+    "cropGroup": "Oilseed",
+    "growingSeasons": {
+      "value": ["Kharif"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Cultivated predominantly as a rainfed monsoon Kharif oilseed-pulse crop across Central and Peninsular India.",
+      "sources": [
+        {
+          "institute": "ICAR-IISR (Indian Institute of Soybean Research, Indore)",
+          "title": "Package of Practices for Soybean Cultivation in India",
+          "year": 2023,
+          "url": "https://iisrindore.icar.gov.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-08-central-plateau-hills",
+          "agroClimaticZoneName": "Central Plateau and Hills Region",
+          "states": ["Madhya Pradesh", "Rajasthan", "Uttar Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Late June to mid-July with onset of monsoon (≥80–100 mm cumulative rain)",
+          "regionalNotes": "Core Malwa and Vindhyan Vertisol belt; accounts for the largest share of Indian soybean acreage."
+        },
+        {
+          "agroClimaticZoneId": "acz-09-western-plateau-hills",
+          "agroClimaticZoneName": "Western Plateau and Hills Region",
+          "states": ["Maharashtra", "Madhya Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Mid-June to first week of July",
+          "regionalNotes": "Vidarbha and Marathwada black cotton soils; raised-bed/broad-bed furrow (BBF) sowing recommended to prevent monsoon waterlogging."
+        },
+        {
+          "agroClimaticZoneId": "acz-10-southern-plateau-hills",
+          "agroClimaticZoneName": "Southern Plateau and Hills Region",
+          "states": ["Karnataka", "Telangana", "Andhra Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "June to July",
+          "regionalNotes": "Northern Karnataka and Telangana medium-black soils; intercropped widely with pigeonpea."
+        },
+        {
+          "agroClimaticZoneId": "acz-01-western-himalayan",
+          "agroClimaticZoneName": "Western Himalayan Region",
+          "states": ["Uttarakhand", "Himachal Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Late May to June",
+          "regionalNotes": "Low- to mid-hill valleys cultivated with hill-adapted black and yellow-seeded cultivars."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Major producing zones verified against ICAR-IISR Indore and state KVK Kharif advisories.",
+      "sources": [
+        {
+          "institute": "ICAR-IISR, Indore & KVK Sehore / Parbhani",
+          "title": "Soybean Production Technology & Zone Advisories",
+          "year": 2023,
+          "url": "https://iisrindore.icar.gov.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 15,
+        "optimalMinC": 20,
+        "optimalMaxC": 30,
+        "heatStressThresholdC": 35,
+        "frostSensitivity": "High frost sensitivity; strictly frost-free warm season required."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Optimum ~26 °C; temperatures above 35 °C during flowering and pod set reduce pollen viability and pod retention.",
+      "sources": [
+        {
+          "institute": "ICAR-IISR, Indore",
+          "title": "ICAR Handbook of Agriculture / Soybean Agrometeorology",
+          "year": 2022,
+          "url": "https://iisrindore.icar.gov.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "moderate",
+        "seasonalMinMm": 450,
+        "seasonalMaxMm": 700,
+        "droughtTolerance": "Moderate; vulnerable to prolonged dry spells during flowering and pod filling.",
+        "waterloggingSensitivity": "High sensitivity at germination and vegetative stages; requires surface drainage in heavy Vertisols."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Seasonal crop water requirement across 90–115 day Kharif cycle.",
+      "sources": [
+        {
+          "institute": "ICAR-IISR, Indore & FAO Irrigation Paper 33",
+          "title": "Soybean Water Management Guidelines",
+          "year": 2023,
+          "url": "https://iisrindore.icar.gov.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Clay Loam", "Loam", "Silt Loam"],
+        "indianSoilTypes": ["Medium to Deep Black Cotton Soils (Vertisols)", "Fertile Alluvial Loams"],
+        "phMin": 6.0,
+        "phMax": 7.5,
+        "drainageRequirement": "Well-drained; broad-bed furrow (BBF) or ridge-furrow advised on heavy black clay.",
+        "salinityToleranceNote": "Moderately sensitive to soil salinity; yield declines in saline/sodic soils.",
+        "salinityThresholdEcDsM": null
+      },
+      "unit": "pH",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "pH and texture verified by ICAR-IISR; exact national ECe salinity cutoff varies by cultivar and is marked unavailable as a single constant.",
+      "sources": [
+        {
+          "institute": "ICAR-IISR, Indore",
+          "title": "Soil and Land Preparation for Soybean",
+          "year": 2023,
+          "url": "https://iisrindore.icar.gov.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 90,
+        "maxDays": 115,
+        "maturityNote": "Early-maturing varieties (e.g., JS 95-60) mature in ~85–90 days; medium/late varieties take 100–115 days."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across major central and southern Indian Kharif cultivars.",
+      "sources": [
+        {
+          "institute": "ICAR-IISR, Indore",
+          "title": "Improved Soybean Varieties Compendium",
+          "year": 2023,
+          "url": "https://iisrindore.icar.gov.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [20, 30],
+        "phosphorusP2O5KgHa": [60, 80],
+        "potassiumK2OKgHa": [40, 60],
+        "secondaryAndMicronutrients": "Sulfur @ 20–40 kg S/ha via SSP/gypsum and Zinc/Boron where soil-test deficient.",
+        "soilTestCalibrationNote": "Starter nitrogen only; pair with Bradyrhizobium japonicum and PSB seed inoculation."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Blanket ICAR-IISR general nutrient dose; state KVK soil-test-based target yield equations refine exact K2O and S.",
+      "sources": [
+        {
+          "institute": "ICAR-IISR, Indore & KVK Madhya Pradesh",
+          "title": "Integrated Nutrient Management in Soybean",
+          "year": 2023,
+          "url": "https://iisrindore.icar.gov.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "high",
+        "recommendedIrrigationsRange": [0, 2],
+        "criticalGrowthStages": ["Sprouting / Seedling emergence (if dry spell)", "Flowering (R1–R2)", "Pod initiation & seed filling (R3–R6)"],
+        "managementNote": "Primarily rainfed in monsoon; 1–2 protective irrigations during prolonged September dry spells prevent major yield loss."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Protective irrigation guidance verified by ICAR-IISR and AICRP on Soybean.",
+      "sources": [
+        {
+          "institute": "ICAR-IISR, Indore",
+          "title": "Contingency Moisture Management in Kharif Soybean",
+          "year": 2023,
+          "url": "https://iisrindore.icar.gov.in/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": true,
+        "symbiontSpecies": "Bradyrhizobium japonicum",
+        "estimatedFixationKgNHa": [60, 120],
+        "residualNitrogenCreditKgNHa": [20, 40],
+        "nodulationAndInoculationNote": "Forms active root nodules from 15–20 DAS; inoculate seed @ 5 g/kg seed in soils without recent soybean history."
+      },
+      "unit": "kg N/ha",
+      "validationStatus": "provisional_regional",
+      "validationNote": "Exact biological nitrogen fixation (BNF) quantity varies substantially with soil moisture, native Rhizobium populations, and basal N dose.",
+      "sources": [
+        {
+          "institute": "ICAR-IISR, Indore & ICAR-IISS, Bhopal",
+          "title": "Biological Nitrogen Fixation in Soybean-Based Cropping Systems",
+          "year": 2021,
+          "url": "https://iisrindore.icar.gov.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Wheat", "Sorghum", "Maize", "Chickpea"],
+        "beneficialSucceedingCrops": ["Wheat", "Chickpea", "Indian Mustard", "Rabi Sorghum"],
+        "incompatibleOrCautionSequences": [
+          "Avoid continuous soybean-soybean monocropping due to Charcoal Rot (Macrophomina phaseolina), Collar Rot, and Yellow Mosaic Virus buildup.",
+          "Exercise caution rotating immediately with other Kharif legumes like mungbean/urdbean where root-rot inoculum overlaps."
+        ],
+        "agronomicRationale": "Soybean-Wheat and Soybean-Chickpea are benchmark Central Indian rotations leveraging residual soil moisture and biological N fixation while breaking cereal pest cycles."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Cropping system compatibility verified across Malwa and Vidarbha KVK demonstrations.",
+      "sources": [
+        {
+          "institute": "ICAR-IISR, Indore & ICAR-IIFSR, Modipuram",
+          "title": "Soybean-Based Cropping Systems for Central India",
+          "year": 2023,
+          "url": "https://iisrindore.icar.gov.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "A single national ECe salinity threshold is marked unavailable because tolerance varies across soybean cultivars and Vertisol calcium saturation.",
+    "lastReviewedDate": "2026-03-15"
+  },
+  {
+    "id": "chickpea",
+    "cropName": "Chickpea (Bengal Gram)",
+    "localNames": ["Chana", "Bengal Gram", "Desi Chana", "Kabuli Chana"],
+    "scientificName": "Cicer arietinum",
+    "cropFamily": "Fabaceae",
+    "cropGroup": "Pulse",
+    "growingSeasons": {
+      "value": ["Rabi"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Strictly a cool-season post-monsoon Rabi pulse crop across India.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR (Indian Institute of Pulses Research, Kanpur)",
+          "title": "Chickpea Production Technology Manual",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-08-central-plateau-hills",
+          "agroClimaticZoneName": "Central Plateau and Hills Region",
+          "states": ["Madhya Pradesh", "Rajasthan", "Uttar Pradesh"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "Mid-October to mid-November (after Kharif soybean or maize harvest)",
+          "regionalNotes": "Largest chickpea production zone in India; thrives on conserved soil moisture in Bundelkhand and Malwa Vertisols."
+        },
+        {
+          "agroClimaticZoneId": "acz-09-western-plateau-hills",
+          "agroClimaticZoneName": "Western Plateau and Hills Region",
+          "states": ["Maharashtra", "Madhya Pradesh"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "October to first week of November",
+          "regionalNotes": "Grown after Kharif soybean/cotton in Vidarbha and Marathwada; early sowing avoids terminal heat."
+        },
+        {
+          "agroClimaticZoneId": "acz-14-western-dry",
+          "agroClimaticZoneName": "Western Dry Region",
+          "states": ["Rajasthan"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "October (rainfed) to early November (limited irrigated)",
+          "regionalNotes": "Drought-hardy Desi cultivars perform reliably under conserved monsoon moisture."
+        },
+        {
+          "agroClimaticZoneId": "acz-10-southern-plateau-hills",
+          "agroClimaticZoneName": "Southern Plateau and Hills Region",
+          "states": ["Karnataka", "Andhra Pradesh", "Telangana"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "First fortnight of October to early November",
+          "regionalNotes": "Short-duration wilt-resistant varieties suited to warm southern Rabi winters."
+        },
+        {
+          "agroClimaticZoneId": "acz-04-middle-gangetic-plains",
+          "agroClimaticZoneName": "Middle Gangetic Plains Region",
+          "states": ["Bihar", "Uttar Pradesh"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "Late October to November",
+          "regionalNotes": "Adapted to rice-fallow and upland sandy-loam/clay-loam tracts."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Regional sowing windows verified by ICAR-IIPR Kanpur and AICRP on Chickpea.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "AICRP on Chickpea Zonal Recommendations",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 10,
+        "optimalMinC": 15,
+        "optimalMaxC": 25,
+        "heatStressThresholdC": 32,
+        "frostSensitivity": "Moderate to high during flowering and early pod formation; severe frost damages flowers."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Cool dry weather favors vegetative branching; >32 °C during pod filling accelerates forced maturity.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Climatic Requirements for Chickpea",
+          "year": 2022,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "low",
+        "seasonalMinMm": 300,
+        "seasonalMaxMm": 400,
+        "droughtTolerance": "High; deep taproot extracts residual subsoil moisture effectively.",
+        "waterloggingSensitivity": "Very high; even brief surface stagnation triggers Fusarium wilt and root rot."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Low water-duty pulse suited to residual moisture and supplemental irrigation.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Water Management in Chickpea",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Loam", "Clay Loam", "Sandy Loam"],
+        "indianSoilTypes": ["Well-drained Black Soils (Vertisols)", "Alluvial Loams", "Medium Sandy Loams"],
+        "phMin": 6.0,
+        "phMax": 8.0,
+        "drainageRequirement": "Strict requirement for well-drained soils without hardpan or standing water.",
+        "salinityToleranceNote": "Sensitive to soil salinity and alkalinity.",
+        "salinityThresholdEcDsM": null
+      },
+      "unit": "pH",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "pH 6.0–8.0 verified; single national ECe cutoff unavailable across Desi and Kabuli types.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Chickpea Agronomy & Soil Suitability",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 95,
+        "maxDays": 145,
+        "maturityNote": "Southern/Central short-duration cultivars mature in 95–110 days; Northern Indo-Gangetic Plains cultivars take 130–145 days."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Duration varies strongly by latitude and winter length.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Released Chickpea Varieties of India",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [15, 20],
+        "phosphorusP2O5KgHa": [40, 50],
+        "potassiumK2OKgHa": [20, 20],
+        "secondaryAndMicronutrients": "Sulfur @ 20 kg/ha and Zinc/Boron where soil test shows deficiency; 2% urea/DAP foliar spray at podding in rainfed belts.",
+        "soilTestCalibrationNote": "Starter nitrogen only; high basal N suppresses root nodulation."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Standard ICAR-IIPR basal dose (20:40:20 kg NPK/ha).",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur & KVK Bundelkhand",
+          "title": "Nutrient Management in Rabi Pulses",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "high",
+        "recommendedIrrigationsRange": [1, 2],
+        "criticalGrowthStages": ["Pre-flowering / Branching (45–55 DAS)", "Pod development (75–85 DAS)"],
+        "managementNote": "Avoid irrigation at flowering stage itself (causes flower drop and vegetative overgrowth); irrigate just before flowering and at pod development if soil moisture is depleted."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Critical irrigation timing verified by ICAR-IIPR.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Irrigation Scheduling in Chickpea",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": true,
+        "symbiontSpecies": "Mesorhizobium ciceri",
+        "estimatedFixationKgNHa": [40, 80],
+        "residualNitrogenCreditKgNHa": [20, 35],
+        "nodulationAndInoculationNote": "Treat seeds with Mesorhizobium ciceri + PSB; nodulation peaks before flowering."
+      },
+      "unit": "kg N/ha",
+      "validationStatus": "provisional_regional",
+      "validationNote": "Field fixation depends heavily on conserved Rabi soil moisture and soil wilt/nodule health.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Rhizobial Symbiosis in Chickpea",
+          "year": 2022,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Rice", "Maize", "Sorghum", "Pearl Millet", "Soybean"],
+        "beneficialSucceedingCrops": ["Sorghum", "Maize", "Pearl Millet", "Rice"],
+        "incompatibleOrCautionSequences": [
+          "Avoid continuous chickpea or back-to-back Rabi legumes (lentil/pea) in Fusarium wilt-endemic fields.",
+          "Use minimum 2–3 year break from chickpea in wilt-affected Vertisols."
+        ],
+        "agronomicRationale": "Substitutes winter cereal monoculture (e.g., Rice-Chickpea or Maize-Chickpea), saving irrigation water and improving soil nitrogen for Kharif cereals."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across Rice-Fallow and Maize-Chickpea KVK demonstrations.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Pulses in Rice-Fallow & Cereal Rotations",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "A single national ECe salinity threshold is marked unavailable due to strong cultivar and soil-type differences.",
+    "lastReviewedDate": "2026-03-15"
+  },
+  {
+    "id": "wheat",
+    "cropName": "Wheat",
+    "localNames": ["Gehu", "Gehun", "Godhumai", "Gahu"],
+    "scientificName": "Triticum aestivum",
+    "cropFamily": "Poaceae",
+    "cropGroup": "Cereal",
+    "growingSeasons": {
+      "value": ["Rabi"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Cool-season Rabi staple cereal grown across northern, central, and northwestern India.",
+      "sources": [
+        {
+          "institute": "ICAR-IIWBR (Indian Institute of Wheat and Barley Research, Karnal)",
+          "title": "Wheat Production Technologies in India",
+          "year": 2023,
+          "url": "https://iiwbr.icar.gov.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-06-trans-gangetic-plains",
+          "agroClimaticZoneName": "Trans-Gangetic Plains Region",
+          "states": ["Punjab", "Haryana", "Delhi", "Rajasthan"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "November 1 to November 25 (timely sown)",
+          "regionalNotes": "Highest-productivity irrigated wheat belt in India; Happy Seeder / zero-till sowing after paddy preserves moisture."
+        },
+        {
+          "agroClimaticZoneId": "acz-05-upper-gangetic-plains",
+          "agroClimaticZoneName": "Upper Gangetic Plains Region",
+          "states": ["Uttar Pradesh", "Uttarakhand"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "November 1 to November 30",
+          "regionalNotes": "Core irrigated alluvial belt; timely sowing critical to escape March terminal heat stress."
+        },
+        {
+          "agroClimaticZoneId": "acz-04-middle-gangetic-plains",
+          "agroClimaticZoneName": "Middle Gangetic Plains Region",
+          "states": ["Bihar", "Uttar Pradesh"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "November 10 to December 10",
+          "regionalNotes": "Often follows long-duration rice; zero-tillage advances sowing by 10–15 days."
+        },
+        {
+          "agroClimaticZoneId": "acz-08-central-plateau-hills",
+          "agroClimaticZoneName": "Central Plateau and Hills Region",
+          "states": ["Madhya Pradesh", "Rajasthan", "Uttar Pradesh"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "Late October to November 20",
+          "regionalNotes": "High-quality bread and durum wheat zone following Kharif soybean."
+        },
+        {
+          "agroClimaticZoneId": "acz-13-gujarat-plains-hills",
+          "agroClimaticZoneName": "Gujarat Plains and Hills Region",
+          "states": ["Gujarat"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "November 10 to November 25",
+          "regionalNotes": "Irrigated warmer-winter zone requiring heat-tolerant varieties."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Zonal sowing windows verified by ICAR-IIWBR (NWPZ, NEPZ, CZ).",
+      "sources": [
+        {
+          "institute": "ICAR-IIWBR, Karnal",
+          "title": "Zonal Package of Practices for Wheat",
+          "year": 2023,
+          "url": "https://iiwbr.icar.gov.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 4,
+        "optimalMinC": 10,
+        "optimalMaxC": 25,
+        "heatStressThresholdC": 30,
+        "frostSensitivity": "Low during vegetative tillering; sensitive to severe frost at anthesis/heading."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Vegetative tillering optimal 12–18 °C; >25–30 °C during grain filling causes terminal heat stress and shriveled grain.",
+      "sources": [
+        {
+          "institute": "ICAR-IIWBR, Karnal",
+          "title": "Terminal Heat Stress Management in Wheat",
+          "year": 2023,
+          "url": "https://iiwbr.icar.gov.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "moderate",
+        "seasonalMinMm": 450,
+        "seasonalMaxMm": 650,
+        "droughtTolerance": "Moderate (specific restricted-irrigation cultivars exist for Central Zone).",
+        "waterloggingSensitivity": "Moderate to high; sensitive to crown-stage water stagnation in heavy clay soils."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Seasonal ET requirement across 4–6 irrigations in timely sown irrigated wheat.",
+      "sources": [
+        {
+          "institute": "ICAR-IIWBR, Karnal",
+          "title": "Water Management & Micro-irrigation in Wheat",
+          "year": 2023,
+          "url": "https://iiwbr.icar.gov.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Loam", "Clay Loam", "Silt Loam"],
+        "indianSoilTypes": ["Alluvial Loams (Indo-Gangetic Plains)", "Medium to Deep Black Soils (Central India)"],
+        "phMin": 5.5,
+        "phMax": 7.5,
+        "drainageRequirement": "Well-drained fertile loams with good moisture-holding capacity.",
+        "salinityToleranceNote": "Moderately tolerant to salinity/alkalinity compared to pulses; salt-tolerant varieties (e.g., KRL series) adapted up to moderate sodicity.",
+        "salinityThresholdEcDsM": 6.0
+      },
+      "unit": "pH / dS/m",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "pH 5.5–7.5 verified by ICAR-IIWBR; FAO/ICAR-CSSRI general wheat threshold ECe ~6.0 dS/m before significant yield decline.",
+      "sources": [
+        {
+          "institute": "ICAR-IIWBR, Karnal & ICAR-CSSRI, Karnal",
+          "title": "Wheat Soil & Salinity Management Guidelines",
+          "year": 2022,
+          "url": "https://iiwbr.icar.gov.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 115,
+        "maxDays": 150,
+        "maturityNote": "Central Zone (MP/Gujarat) matures in 115–125 days; North Western Plains (Punjab/Haryana) require 140–150 days."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across NWPZ, NEPZ, and CZ irrigated timely-sown cultivars.",
+      "sources": [
+        {
+          "institute": "ICAR-IIWBR, Karnal",
+          "title": "Varietal Handbook for Wheat",
+          "year": 2023,
+          "url": "https://iiwbr.icar.gov.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [120, 150],
+        "phosphorusP2O5KgHa": [60, 60],
+        "potassiumK2OKgHa": [40, 40],
+        "secondaryAndMicronutrients": "Zinc sulfate @ 25 kg/ha in Zn-deficient Indo-Gangetic soils; Manganese spray in rice-wheat light soils.",
+        "soilTestCalibrationNote": "Apply N in 2–3 splits (basal, CRI irrigation, and tillering/jointing) guided by LCC or GreenSeeker."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Timely-sown irrigated blanket dose (120–150:60:40); rainfed/restricted-irrigation Central Zone uses lower N (60–80 kg/ha).",
+      "sources": [
+        {
+          "institute": "ICAR-IIWBR, Karnal",
+          "title": "Precision Nutrient Management in Wheat",
+          "year": 2023,
+          "url": "https://iiwbr.icar.gov.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "low",
+        "recommendedIrrigationsRange": [4, 6],
+        "criticalGrowthStages": [
+          "Crown Root Initiation / CRI (20–25 DAS — most critical)",
+          "Tillering (40–45 DAS)",
+          "Late Jointing (60–65 DAS)",
+          "Flowering (80–85 DAS)",
+          "Milk / Dough grain filling (100–120 DAS)"
+        ],
+        "managementNote": "CRI at 21 DAS is non-negotiable; 1–2 irrigations under restricted Central Indian supplies target CRI and flowering."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "CRI-anchored irrigation schedule verified by ICAR-IIWBR.",
+      "sources": [
+        {
+          "institute": "ICAR-IIWBR, Karnal",
+          "title": "Irrigation Scheduling in Wheat",
+          "year": 2023,
+          "url": "https://iiwbr.icar.gov.in/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": false,
+        "symbiontSpecies": null,
+        "estimatedFixationKgNHa": null,
+        "residualNitrogenCreditKgNHa": null,
+        "nodulationAndInoculationNote": "Non-legume cereal; does not form root nodules or fix atmospheric nitrogen symbiotically (Azotobacter biofertilizer offers minor associative support only)."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified non-nitrogen-fixing Poaceae cereal; BNF numerical rates are not applicable (null).",
+      "sources": [
+        {
+          "institute": "ICAR-IIWBR, Karnal",
+          "title": "Nitrogen Uptake Physiology in Wheat",
+          "year": 2022,
+          "url": "https://iiwbr.icar.gov.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Soybean", "Pigeonpea", "Groundnut", "Maize", "Mungbean"],
+        "beneficialSucceedingCrops": ["Soybean", "Maize", "Pearl Millet", "Sorghum", "Mungbean"],
+        "incompatibleOrCautionSequences": [
+          "Long-term continuous Rice-Wheat without residue/legume break accelerates groundwater depletion, Phalaris minor herbicide resistance, and soil organic carbon decline."
+        ],
+        "agronomicRationale": "Rotating wheat after Kharif legumes (Soybean, Pigeonpea, Mungbean) reduces starter N need and disrupts grassy weed seedbanks."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Diversification of Rice-Wheat system backed by ICAR-IIWBR & ICAR-IIFSR.",
+      "sources": [
+        {
+          "institute": "ICAR-IIWBR, Karnal & ICAR-IIFSR, Modipuram",
+          "title": "Diversification of Rice-Wheat Cropping Systems",
+          "year": 2023,
+          "url": "https://iiwbr.icar.gov.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "Symbiotic nitrogen fixation quantities are not applicable (null) because wheat is a non-legume cereal.",
+    "lastReviewedDate": "2026-03-15"
+  },
+  {
+    "id": "sorghum",
+    "cropName": "Sorghum (Jowar)",
+    "localNames": ["Jowar", "Juar", "Cholam", "Jonna", "Jola"],
+    "scientificName": "Sorghum bicolor",
+    "cropFamily": "Poaceae",
+    "cropGroup": "Millet",
+    "growingSeasons": {
+      "value": ["Kharif", "Rabi", "Summer"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Grown in Kharif across semi-arid India and extensively in Rabi on receding moisture in Maharashtra and Karnataka.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR (Indian Institute of Millets Research, Hyderabad)",
+          "title": "Sorghum Cultivation Package of Practices",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-09-western-plateau-hills",
+          "agroClimaticZoneName": "Western Plateau and Hills Region",
+          "states": ["Maharashtra", "Madhya Pradesh"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "Kharif: June–July; Rabi: Mid-September to mid-October",
+          "regionalNotes": "Solapur-Marathwada-Western Maharashtra belt is India's largest Rabi sorghum hub grown on receding soil moisture."
+        },
+        {
+          "agroClimaticZoneId": "acz-10-southern-plateau-hills",
+          "agroClimaticZoneName": "Southern Plateau and Hills Region",
+          "states": ["Karnataka", "Telangana", "Andhra Pradesh", "Tamil Nadu"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "Kharif: June–July; Rabi: September–October",
+          "regionalNotes": "Northern Karnataka Vertisols and Telangana semi-arid zones favor both dual-purpose and grain sorghum."
+        },
+        {
+          "agroClimaticZoneId": "acz-08-central-plateau-hills",
+          "agroClimaticZoneName": "Central Plateau and Hills Region",
+          "states": ["Madhya Pradesh", "Rajasthan", "Uttar Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Late June to mid-July",
+          "regionalNotes": "Grown on lighter uplands and mixed red/black soils as grain and fodder crop."
+        },
+        {
+          "agroClimaticZoneId": "acz-13-gujarat-plains-hills",
+          "agroClimaticZoneName": "Gujarat Plains and Hills Region",
+          "states": ["Gujarat"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "June–July (Kharif) or February–March (Summer forage)",
+          "regionalNotes": "Valued for drought resilience and high fodder quality in semi-arid Gujarat."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Zonal seasonal suitability verified by ICAR-IIMR Hyderabad and KVK Solapur.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad",
+          "title": "AICRP on Sorghum Zonal Recommendations",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 12,
+        "optimalMinC": 25,
+        "optimalMaxC": 32,
+        "heatStressThresholdC": 38,
+        "frostSensitivity": "High; frost halts growth and injures immature panicles."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Warm-season C4 cereal with strong heat tolerance compared to maize and wheat.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad",
+          "title": "Sorghum Ecophysiology and Climate Resilience",
+          "year": 2022,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "low",
+        "seasonalMinMm": 400,
+        "seasonalMaxMm": 600,
+        "droughtTolerance": "Very high; waxy leaf cuticle and deep fibrous roots tolerate mid-season dry spells.",
+        "waterloggingSensitivity": "Moderate; tolerates brief saturation better than pearl millet but prefers drained soils."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Rainfed Rabi sorghum often matures on 300–400 mm conserved soil moisture with supplemental protective irrigation.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad",
+          "title": "Sorghum Moisture Conservation Guidelines",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Clay Loam", "Loam", "Sandy Clay Loam"],
+        "indianSoilTypes": ["Medium to Deep Black Soils (Vertisols)", "Red Loams", "Alluvial Loams"],
+        "phMin": 6.0,
+        "phMax": 8.5,
+        "drainageRequirement": "Moderately well-drained; performs well in moisture-retentive black clay loams.",
+        "salinityToleranceNote": "Moderately tolerant to soil salinity and mild alkalinity.",
+        "salinityThresholdEcDsM": 6.8
+      },
+      "unit": "pH / dS/m",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "pH 6.0–8.5 verified by ICAR-IIMR; FAO/ICAR salinity threshold ~6.8 dS/m.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad & FAO Irrigation Paper 29",
+          "title": "Soil Suitability for Sorghum",
+          "year": 2022,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 100,
+        "maxDays": 130,
+        "maturityNote": "Kharif hybrids typically mature in 100–115 days; Rabi post-rainy varieties take 115–130 days."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across CSH hybrids and Maldandi-type Rabi selections.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad",
+          "title": "Improved Sorghum Hybrids and Varieties",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [40, 100],
+        "phosphorusP2O5KgHa": [30, 40],
+        "potassiumK2OKgHa": [20, 40],
+        "secondaryAndMicronutrients": "Zinc and Iron where Vertisol chlorosis appears; Azospirillum + PSB seed treatment.",
+        "soilTestCalibrationNote": "Rainfed crops use 40–50:30:20 kg/ha; irrigated/high-potential hybrids use 80–100:40:40 kg/ha."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Dual rainfed vs. irrigated NPK range per ICAR-IIMR.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad",
+          "title": "Nutrient Management in Kharif & Rabi Sorghum",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "high",
+        "recommendedIrrigationsRange": [0, 3],
+        "criticalGrowthStages": ["Primordial initiation / Knee-high (30–35 DAS)", "Booting / Flag leaf (50–55 DAS)", "Flowering & grain milk stage (70–90 DAS)"],
+        "managementNote": "Largely rainfed; 1–2 protective irrigations at booting and flowering dramatically stabilize yield in dry Rabi seasons."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Critical growth stages verified by ICAR-IIMR.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad",
+          "title": "Protective Irrigation for Dryland Sorghum",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": false,
+        "symbiontSpecies": null,
+        "estimatedFixationKgNHa": null,
+        "residualNitrogenCreditKgNHa": null,
+        "nodulationAndInoculationNote": "Non-legume C4 millet; does not fix nitrogen symbiotically, though associative Azospirillum inoculant aids root uptake."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified non-nodulating cereal; BNF numeric rates are not applicable (null).",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad",
+          "title": "Biofertilizer Guidelines for Millets",
+          "year": 2022,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Chickpea", "Soybean", "Pigeonpea", "Groundnut"],
+        "beneficialSucceedingCrops": ["Chickpea", "Groundnut", "Soybean", "Safflower"],
+        "incompatibleOrCautionSequences": [
+          "Avoid continuous sorghum-sorghum without legume rotation due to Striga (witchweed) buildup and allelopathic/N-depletion effects on immediate succeeding cereals."
+        ],
+        "agronomicRationale": "Sorghum-Chickpea and Sorghum+Pigeonpea intercropping are cornerstone resilient Deccan cropping patterns."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Rotation compatibility verified by ICAR-IIMR and ICAR-CRIDA.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad & ICAR-CRIDA, Hyderabad",
+          "title": "Millet-Based Resilient Cropping Systems",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "Symbiotic nitrogen fixation values are marked null (not applicable) because sorghum is a non-legume crop.",
+    "lastReviewedDate": "2026-03-15"
+  },
+  {
+    "id": "pearl-millet",
+    "cropName": "Pearl Millet (Bajra)",
+    "localNames": ["Bajra", "Bajri", "Kambu", "Sajje", "Sajjalu"],
+    "scientificName": "Pennisetum glaucum",
+    "cropFamily": "Poaceae",
+    "cropGroup": "Millet",
+    "growingSeasons": {
+      "value": ["Kharif", "Summer"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Primary arid/semi-arid Kharif crop; irrigated Summer bajra is widely grown in Gujarat and Western UP.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR / AICRP on Pearl Millet (Jodhpur)",
+          "title": "Pearl Millet Production Technology",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-14-western-dry",
+          "agroClimaticZoneName": "Western Dry Region",
+          "states": ["Rajasthan"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Late June to mid-July (onset of first soaking monsoon shower ≥25–30 mm)",
+          "regionalNotes": "India's primary arid pearl millet heartland (Barmer, Jodhpur, Nagaur, Churu); unmatched drought and heat survival."
+        },
+        {
+          "agroClimaticZoneId": "acz-13-gujarat-plains-hills",
+          "agroClimaticZoneName": "Gujarat Plains and Hills Region",
+          "states": ["Gujarat"],
+          "primarySeason": "Summer",
+          "typicalSowingWindow": "Kharif: June–July; Summer: Mid-February to March",
+          "regionalNotes": "Dual Kharif rainfed and high-yield irrigated Summer pearl millet zone."
+        },
+        {
+          "agroClimaticZoneId": "acz-06-trans-gangetic-plains",
+          "agroClimaticZoneName": "Trans-Gangetic Plains Region",
+          "states": ["Haryana", "Rajasthan", "Delhi"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "First fortnight of July",
+          "regionalNotes": "Southern Haryana (Mahendragarh, Rewari, Bhiwani) sandy-loam rainfed and dual-purpose belt."
+        },
+        {
+          "agroClimaticZoneId": "acz-05-upper-gangetic-plains",
+          "agroClimaticZoneName": "Upper Gangetic Plains Region",
+          "states": ["Uttar Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "July (Kharif) or March (Zaid/Summer)",
+          "regionalNotes": "Western UP Agra–Aligarh sandy belt with high adoption of hybrids."
+        },
+        {
+          "agroClimaticZoneId": "acz-09-western-plateau-hills",
+          "agroClimaticZoneName": "Western Plateau and Hills Region",
+          "states": ["Maharashtra"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "June to first week of July",
+          "regionalNotes": "Rain-shadow Nashik, Ahmednagar, and Dhule shallow upland soils."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Zone-wise suitability verified by AICRP on Pearl Millet (ICAR-CAZRI / Jodhpur).",
+      "sources": [
+        {
+          "institute": "ICAR-AICRP on Pearl Millet, Jodhpur & ICAR-IIMR",
+          "title": "Pearl Millet Zonal Advisories",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 15,
+        "optimalMinC": 20,
+        "optimalMaxC": 32,
+        "heatStressThresholdC": 42,
+        "frostSensitivity": "High; strictly warm-season crop."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Highest heat resilience among major Indian foodgrains; tolerates daytime temperatures >40 °C with adequate moisture.",
+      "sources": [
+        {
+          "institute": "ICAR-AICRP on Pearl Millet, Jodhpur",
+          "title": "Climate Adaptation Profile of Pearl Millet",
+          "year": 2022,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "low",
+        "seasonalMinMm": 250,
+        "seasonalMaxMm": 350,
+        "droughtTolerance": "Exceptional; completes short cycle in low-rainfall arid belts (200–450 mm).",
+        "waterloggingSensitivity": "Very high; intolerant to standing water or poor drainage."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Lowest seasonal water demand among staple cereals.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR & AICRP on Pearl Millet",
+          "title": "Water Requirement of Rainfed Pearl Millet",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Sandy Loam", "Loamy Sand", "Loam"],
+        "indianSoilTypes": ["Desert Sandy Soils (Aridisols)", "Light Alluvial Loams", "Shallow Red/Black Uplands"],
+        "phMin": 6.5,
+        "phMax": 8.0,
+        "drainageRequirement": "High; thrives on light-textured well-drained soils.",
+        "salinityToleranceNote": "Moderately tolerant to saline/arid soils, though germination suffers in crusted sodic soils.",
+        "salinityThresholdEcDsM": null
+      },
+      "unit": "pH",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "pH 6.5–8.0 verified; single national ECe threshold unavailable due to wide varietal variation across desert landraces and hybrids.",
+      "sources": [
+        {
+          "institute": "ICAR-AICRP on Pearl Millet, Jodhpur",
+          "title": "Soil Management in Pearl Millet",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 75,
+        "maxDays": 95,
+        "maturityNote": "Ultra-short arid hybrids (e.g., HHB 67 Improved) mature in 65–75 days; standard hybrids take 80–90 days."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Short lifecycle enables escape from late-season arid droughts.",
+      "sources": [
+        {
+          "institute": "ICAR-AICRP on Pearl Millet, Jodhpur",
+          "title": "Catalogue of Pearl Millet Cultivars",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [40, 80],
+        "phosphorusP2O5KgHa": [20, 40],
+        "potassiumK2OKgHa": [0, 40],
+        "secondaryAndMicronutrients": "Zinc sulfate @ 10–15 kg/ha in light desert soils; Azospirillum + PSB biofertilizer.",
+        "soilTestCalibrationNote": "Arid rainfed target: 40:20:0 kg/ha; irrigated/summer high-yield hybrids: 80:40:40 kg/ha."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Distinguishes rainfed arid vs. irrigated summer fertilizer schedules per ICAR-IIMR.",
+      "sources": [
+        {
+          "institute": "ICAR-AICRP on Pearl Millet & ICAR-IIMR",
+          "title": "Fertilizer Recommendations for Pearl Millet",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "high",
+        "recommendedIrrigationsRange": [0, 4],
+        "criticalGrowthStages": ["Tillering (20–25 DAS)", "Booting / Heading (40–45 DAS)", "Flowering & milk stage (55–65 DAS)"],
+        "managementNote": "Kharif crop is predominantly rainfed with 1 life-saving irrigation during dry spells; Summer crop requires 4–5 light irrigations."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified for both Kharif dryland and Gujarat Summer irrigated systems.",
+      "sources": [
+        {
+          "institute": "ICAR-AICRP on Pearl Millet",
+          "title": "Water Saving Practices in Bajra",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": false,
+        "symbiontSpecies": null,
+        "estimatedFixationKgNHa": null,
+        "residualNitrogenCreditKgNHa": null,
+        "nodulationAndInoculationNote": "Non-legume C4 cereal; does not nodulate, though associative rhizosphere bacteria (Azospirillum) are used as bio-inoculants."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified non-nodulating cereal; BNF numeric rates are not applicable (null).",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad",
+          "title": "Microbial Inoculants in Pearl Millet",
+          "year": 2022,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Chickpea", "Mungbean", "Cluster Bean (Guar)", "Indian Mustard"],
+        "beneficialSucceedingCrops": ["Indian Mustard", "Chickpea", "Wheat"],
+        "incompatibleOrCautionSequences": [
+          "Avoid continuous pearl millet monocropping to limit Downy Mildew (Sclerospora graminicola) oospore accumulation and Striga."
+        ],
+        "agronomicRationale": "Pearl Millet–Mustard and Pearl Millet–Chickpea rotations optimize scarce moisture and soil health in semi-arid North-West India."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified by KVK Jodhpur, Hisar, and Anand.",
+      "sources": [
+        {
+          "institute": "ICAR-CAZRI, Jodhpur & KVK Haryana",
+          "title": "Arid Zone Cropping Systems",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "A single national salinity ECe cutoff and symbiotic BNF rates (non-legume) are marked null/unavailable.",
+    "lastReviewedDate": "2026-03-15"
+  },
+  {
+    "id": "finger-millet",
+    "cropName": "Finger Millet (Ragi)",
+    "localNames": ["Ragi", "Mandua", "Nachni", "Marua", "Kezhvaragu"],
+    "scientificName": "Eleusine coracana",
+    "cropFamily": "Poaceae",
+    "cropGroup": "Millet",
+    "growingSeasons": {
+      "value": ["Kharif", "Rabi", "Summer"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Predominantly Kharif across rainfed plateaus and hills; also grown in Rabi/Summer under irrigation in southern states.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR / AICRP on Small Millets (Bengaluru)",
+          "title": "Finger Millet Production Technology",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-10-southern-plateau-hills",
+          "agroClimaticZoneName": "Southern Plateau and Hills Region",
+          "states": ["Karnataka", "Tamil Nadu", "Andhra Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "June–July (Kharif) or January–February (irrigated Summer)",
+          "regionalNotes": "Southern Karnataka (Bengaluru–Mandya–Hassan–Tumakuru belt) leads Indian ragi production on red Alfisols."
+        },
+        {
+          "agroClimaticZoneId": "acz-01-western-himalayan",
+          "agroClimaticZoneName": "Western Himalayan Region",
+          "states": ["Uttarakhand", "Himachal Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "May to June",
+          "regionalNotes": "Mandua is a vital rainfed hill millet adapted to terraced mid-hill soils up to ~2,000 m elevation."
+        },
+        {
+          "agroClimaticZoneId": "acz-07-eastern-plateau-hills",
+          "agroClimaticZoneName": "Eastern Plateau and Hills Region",
+          "states": ["Odisha", "Jharkhand", "Chhattisgarh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "June to July",
+          "regionalNotes": "Koraput and tribal plateau belts grow short- and medium-duration ragi on acidic red/lateritic uplands."
+        },
+        {
+          "agroClimaticZoneId": "acz-11-east-coast-plains",
+          "agroClimaticZoneName": "East Coast Plains and Hills Region",
+          "states": ["Andhra Pradesh", "Tamil Nadu", "Odisha"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "November–December (coastal Rabi) or July (Kharif)",
+          "regionalNotes": "Transplanted ragi performs well after coastal paddy or under light tank irrigation."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Zonal adaptation verified by ICAR-AICRP on Small Millets, Bengaluru.",
+      "sources": [
+        {
+          "institute": "ICAR-AICRP on Small Millets, UAS Bengaluru",
+          "title": "Finger Millet Cultivation Guidelines",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 18,
+        "optimalMinC": 26,
+        "optimalMaxC": 30,
+        "heatStressThresholdC": 35,
+        "frostSensitivity": "High; sensitive to frost, though cool hill climates down to ~18 °C are well tolerated."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Thrives across tropical plateaus and mild Himalayan summer valleys.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad",
+          "title": "Small Millets Climatic Requirements",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "low",
+        "seasonalMinMm": 350,
+        "seasonalMaxMm": 600,
+        "droughtTolerance": "High; recovers rapidly after intermittent dry spells.",
+        "waterloggingSensitivity": "Moderate; tolerates brief wet periods in transplanted systems better than pearl millet."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Performs reliably in 500–1,000 mm annual rainfall tracts with ~350–600 mm effective seasonal crop water demand.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR & AICRP Small Millets",
+          "title": "Water Productivity in Finger Millet",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Sandy Loam", "Loam", "Clay Loam"],
+        "indianSoilTypes": ["Red Loamy Soils (Alfisols)", "Lateritic Uplands", "Hill Inceptisols"],
+        "phMin": 4.5,
+        "phMax": 8.0,
+        "drainageRequirement": "Well-drained loams; tolerates acidic uplands and mild alkalinity better than most cereals.",
+        "salinityToleranceNote": "Moderately tolerant to moderate salinity and acidity.",
+        "salinityThresholdEcDsM": null
+      },
+      "unit": "pH",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Broad pH adaptability (4.5–8.0) verified by ICAR-IIMR; universal ECe threshold unavailable.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR / AICRP Small Millets",
+          "title": "Soil Suitability of Finger Millet",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 95,
+        "maxDays": 125,
+        "maturityNote": "Early varieties mature in 95–105 days; main-season GPU/ML cultivars take 110–125 days."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Duration verified across Karnataka, Odisha, and Uttarakhand cultivars.",
+      "sources": [
+        {
+          "institute": "ICAR-AICRP on Small Millets",
+          "title": "Improved Ragi Cultivars Compendium",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [30, 60],
+        "phosphorusP2O5KgHa": [30, 30],
+        "potassiumK2OKgHa": [15, 30],
+        "secondaryAndMicronutrients": "5–10 t/ha FYM recommended; Azospirillum brasilense + PSB seed/seedling dip.",
+        "soilTestCalibrationNote": "Rainfed upland dose: 30:30:15 kg/ha; irrigated transplanted ragi: 60:30:30 kg/ha."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified rainfed vs. irrigated NPK guidance per ICAR-IIMR.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR / AICRP on Small Millets",
+          "title": "Nutrient Management in Finger Millet",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "high",
+        "recommendedIrrigationsRange": [0, 4],
+        "criticalGrowthStages": ["Transplanting establishment / Tillering (20–25 DAS)", "Flowering / Earhead emergence (55–65 DAS)", "Grain filling (75–85 DAS)"],
+        "managementNote": "Mostly rainfed in Southern Plateau and Himalayan hills; protective irrigation at flowering stabilizes grain density."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified by ICAR-AICRP Small Millets.",
+      "sources": [
+        {
+          "institute": "ICAR-AICRP on Small Millets",
+          "title": "Finger Millet Irrigation Guidelines",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": false,
+        "symbiontSpecies": null,
+        "estimatedFixationKgNHa": null,
+        "residualNitrogenCreditKgNHa": null,
+        "nodulationAndInoculationNote": "Non-legume cereal; associative Azospirillum inoculation supports root nutrient foraging without symbiotic nodulation."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified non-legume crop; BNF values not applicable (null).",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Hyderabad",
+          "title": "Biofertilizer Inoculation in Small Millets",
+          "year": 2022,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Groundnut", "Pigeonpea", "Chickpea", "Cowpea"],
+        "beneficialSucceedingCrops": ["Groundnut", "Chickpea", "Horsegram", "Field Bean (Dolichos)"],
+        "incompatibleOrCautionSequences": [
+          "Avoid continuous finger millet without organic manure or pulse intercropping where Neck Blast (Pyricularia grisea) persists on crop stubble."
+        ],
+        "agronomicRationale": "Ragi–Pulses and Ragi+Pigeonpea strip cropping conserve soil on sloping red soils and interrupt blast disease carryover."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across Karnataka and Odisha KVK demonstrations.",
+      "sources": [
+        {
+          "institute": "ICAR-AICRP on Small Millets & KVK Mandya",
+          "title": "Ragi-Based Intercropping and Rotation",
+          "year": 2023,
+          "url": "https://www.millets.res.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "Universal ECe salinity threshold unavailable across diverse hill/plateau cultivars; symbiotic BNF not applicable (null).",
+    "lastReviewedDate": "2026-03-15"
+  },
+  {
+    "id": "rice",
+    "cropName": "Rice (Paddy)",
+    "localNames": ["Dhan", "Chawal", "Nellu", "Vadlu", "Bhatta"],
+    "scientificName": "Oryza sativa",
+    "cropFamily": "Poaceae",
+    "cropGroup": "Cereal",
+    "growingSeasons": {
+      "value": ["Kharif", "Rabi", "Summer"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Main Kharif (Aman/Sali) season nationwide; also cultivated in Rabi/Boro in eastern and southern irrigated deltas.",
+      "sources": [
+        {
+          "institute": "ICAR-NRRI (National Rice Research Institute, Cuttack)",
+          "title": "Rice Production Systems of India",
+          "year": 2023,
+          "url": "https://icar-nrri.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-03-lower-gangetic-plains",
+          "agroClimaticZoneName": "Lower Gangetic Plains Region",
+          "states": ["West Bengal"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Aman: June–July; Boro: November–January",
+          "regionalNotes": "India's top rice-producing state spanning Aus, Aman, and irrigated Boro ecologies."
+        },
+        {
+          "agroClimaticZoneId": "acz-04-middle-gangetic-plains",
+          "agroClimaticZoneName": "Middle Gangetic Plains Region",
+          "states": ["Bihar", "Uttar Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Nursery: May–June; Transplanting: July",
+          "regionalNotes": "Direct-seeded rice (DSR) gaining adoption to manage delayed monsoons and labor costs."
+        },
+        {
+          "agroClimaticZoneId": "acz-06-trans-gangetic-plains",
+          "agroClimaticZoneName": "Trans-Gangetic Plains Region",
+          "states": ["Punjab", "Haryana"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Transplanting after mid-June (per state groundwater preservation norms)",
+          "regionalNotes": "High-input irrigated Basmati and non-Basmati belt; AWD/DSR promoted for groundwater conservation."
+        },
+        {
+          "agroClimaticZoneId": "acz-07-eastern-plateau-hills",
+          "agroClimaticZoneName": "Eastern Plateau and Hills Region",
+          "states": ["Chhattisgarh", "Odisha", "Jharkhand"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "June to July",
+          "regionalNotes": "Predominantly rainfed bunded lowlands and midlands; Chhattisgarh known as central rice bowl."
+        },
+        {
+          "agroClimaticZoneId": "acz-11-east-coast-plains",
+          "agroClimaticZoneName": "East Coast Plains and Hills Region",
+          "states": ["Andhra Pradesh", "Tamil Nadu", "Odisha", "Puducherry"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Kharif: June–August; Rabi/Samba: September–November",
+          "regionalNotes": "Godavari, Krishna, Mahanadi, and Cauvery delta irrigated rice bowls."
+        },
+        {
+          "agroClimaticZoneId": "acz-02-eastern-himalayan",
+          "agroClimaticZoneName": "Eastern Himalayan Region",
+          "states": ["Assam", "Tripura", "Manipur", "Meghalaya"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Sali: June–July; Boro: November–December",
+          "regionalNotes": "Brahmaputra and Barak valleys with submergence-tolerant flood-adapted varieties."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Regional rice ecologies verified by ICAR-NRRI Cuttack and ICAR-IIRR Hyderabad.",
+      "sources": [
+        {
+          "institute": "ICAR-NRRI, Cuttack & ICAR-IIRR, Hyderabad",
+          "title": "Rice Ecosystems & Zonal Advisories",
+          "year": 2023,
+          "url": "https://icar-nrri.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 16,
+        "optimalMinC": 20,
+        "optimalMaxC": 35,
+        "heatStressThresholdC": 35,
+        "frostSensitivity": "Very high; cold temperatures <15 °C during booting/flowering induce spikelet sterility."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Optimal mean ~25 °C; >35 °C during anthesis triggers high-temperature spikelet sterility.",
+      "sources": [
+        {
+          "institute": "ICAR-NRRI, Cuttack",
+          "title": "Agrometeorology of Rice",
+          "year": 2022,
+          "url": "https://icar-nrri.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "high",
+        "seasonalMinMm": 900,
+        "seasonalMaxMm": 1250,
+        "droughtTolerance": "Low in standard lowland varieties (drought-tolerant upland/Sahbhagi Dhan types exist).",
+        "waterloggingSensitivity": "Low; adapted to shallow flooding via aerenchyma tissue (except prolonged complete submergence)."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Highest water demand among major Indian cereals; AWD/SRI practices save 15–30% water.",
+      "sources": [
+        {
+          "institute": "ICAR-NRRI, Cuttack & ICAR-IIRR, Hyderabad",
+          "title": "Water-Saving Rice Production Technologies (AWD/DSR/SRI)",
+          "year": 2023,
+          "url": "https://icar-nrri.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Clay", "Clay Loam", "Silty Clay Loam"],
+        "indianSoilTypes": ["Alluvial Clay-Loams", "Deltaic Heavy Clays", "Bunded Lowland Soils"],
+        "phMin": 5.0,
+        "phMax": 6.5,
+        "drainageRequirement": "Low percolation / poorly-to-moderately drained soils preferred for ponded paddy (well-drained ok for aerobic/DSR).",
+        "salinityToleranceNote": "Moderately sensitive overall (~3.0 dS/m threshold), though salt-tolerant varieties (CSR/Luna series) tolerate coastal salinity.",
+        "salinityThresholdEcDsM": 3.0
+      },
+      "unit": "pH / dS/m",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "pH 5.0–6.5 verified; FAO/ICAR-CSSRI general paddy salinity threshold ~3.0 dS/m.",
+      "sources": [
+        {
+          "institute": "ICAR-NRRI, Cuttack & ICAR-CSSRI, Karnal",
+          "title": "Soil Suitability & Coastal Saline Rice",
+          "year": 2023,
+          "url": "https://icar-nrri.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 100,
+        "maxDays": 150,
+        "maturityNote": "Upland/short-duration varieties mature in 100–115 days; medium/lowland cultivars require 125–150 days."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across short, medium, and long-duration Indian rice varieties.",
+      "sources": [
+        {
+          "institute": "ICAR-NRRI, Cuttack",
+          "title": "NRRI Varietal Catalogue",
+          "year": 2023,
+          "url": "https://icar-nrri.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [100, 150],
+        "phosphorusP2O5KgHa": [50, 60],
+        "potassiumK2OKgHa": [40, 60],
+        "secondaryAndMicronutrients": "Zinc sulfate @ 25 kg/ha to prevent Khaira disease; Silicate/Sulfur where deficient.",
+        "soilTestCalibrationNote": "High-yielding varieties: 100–120:50–60:40–50 kg/ha; hybrids: 120–150:60:60 kg/ha using Leaf Color Chart (LCC) for split N."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "LCC/SSNM-guided split N management verified by ICAR-NRRI and ICAR-IIRR.",
+      "sources": [
+        {
+          "institute": "ICAR-NRRI, Cuttack & ICAR-IIRR, Hyderabad",
+          "title": "Site-Specific Nutrient Management in Rice",
+          "year": 2023,
+          "url": "https://icar-nrri.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "moderate",
+        "recommendedIrrigationsRange": null,
+        "criticalGrowthStages": ["Transplanting establishment", "Active tillering", "Panicle initiation", "Booting & flowering (most critical)"],
+        "managementNote": "Irrigated rice is managed by maintaining shallow saturation/2–5 cm standing water or Alternate Wetting and Drying (AWD) rather than fixed irrigation counts; total irrigation count varies by rainfall and soil percolation."
+      },
+      "validationStatus": "unavailable",
+      "validationNote": "A single national discrete irrigation count is marked unavailable (null) because flooded/AWD schedules depend heavily on monsoon distribution and percolation losses.",
+      "sources": [
+        {
+          "institute": "ICAR-IIRR, Hyderabad",
+          "title": "Alternate Wetting & Drying (AWD) Guidelines",
+          "year": 2023,
+          "url": "https://www.icar-iirr.org/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": false,
+        "symbiontSpecies": null,
+        "estimatedFixationKgNHa": null,
+        "residualNitrogenCreditKgNHa": null,
+        "nodulationAndInoculationNote": "Non-legume cereal; paddy ecosystems can receive minor supplemental N from free-living blue-green algae or Azolla biofertilizer rather than root nodulation."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Rice does not fix atmospheric N symbiotically (null); Azolla dual-cropping is a separate companion practice.",
+      "sources": [
+        {
+          "institute": "ICAR-NRRI, Cuttack",
+          "title": "Biofertilizers in Rice Systems",
+          "year": 2022,
+          "url": "https://icar-nrri.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Green Manure (Dhaincha / Sesbania)", "Chickpea", "Mungbean", "Groundnut"],
+        "beneficialSucceedingCrops": ["Chickpea", "Lentil", "Mungbean", "Indian Mustard", "Wheat"],
+        "incompatibleOrCautionSequences": [
+          "Continuous Rice–Rice monocropping increases Brown Planthopper, Bacterial Leaf Blight, and soil Zn/Fe redox imbalance.",
+          "Continuous Rice–Wheat in Punjab/Haryana stresses aquifers and worsens grassy weed resistance."
+        ],
+        "agronomicRationale": "Rice–Pulse (Chickpea/Lentil/Mungbean) and Rice–Mustard sequences capitalize on residual paddy moisture with minimal additional water."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across Eastern India Rice-Fallow and IGP diversification programs.",
+      "sources": [
+        {
+          "institute": "ICAR-NRRI, Cuttack & ICAR-IIFSR, Modipuram",
+          "title": "Rice-Based Cropping Systems of India",
+          "year": 2023,
+          "url": "https://icar-nrri.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "Discrete irrigation count is marked unavailable (null) due to soil percolation/AWD dependence; symbiotic BNF not applicable (null).",
+    "lastReviewedDate": "2026-03-15"
+  },
+  {
+    "id": "maize",
+    "cropName": "Maize (Corn)",
+    "localNames": ["Makka", "Bhutta", "Makki", "Mokka Jonna", "Musukina Jola"],
+    "scientificName": "Zea mays",
+    "cropFamily": "Poaceae",
+    "cropGroup": "Cereal",
+    "growingSeasons": {
+      "value": ["Kharif", "Rabi", "Zaid"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Cultivated year-round in India: ~80% Kharif rainfed, high-yield Rabi maize in Bihar/Andhra/TN, and Spring/Zaid in northern plains.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR (Indian Institute of Maize Research, Ludhiana)",
+          "title": "Maize Production Technology in India",
+          "year": 2023,
+          "url": "https://iimr.icar.gov.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-10-southern-plateau-hills",
+          "agroClimaticZoneName": "Southern Plateau and Hills Region",
+          "states": ["Karnataka", "Telangana", "Andhra Pradesh", "Tamil Nadu"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "June–July (Kharif) or October–November (Rabi)",
+          "regionalNotes": "Major commercial Kharif and irrigated Rabi hybrid maize belt."
+        },
+        {
+          "agroClimaticZoneId": "acz-08-central-plateau-hills",
+          "agroClimaticZoneName": "Central Plateau and Hills Region",
+          "states": ["Madhya Pradesh", "Rajasthan"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Late June to mid-July",
+          "regionalNotes": "Chhindwara–Seoni–Udaipur–Banswara rainfed maize uplands and medium soils."
+        },
+        {
+          "agroClimaticZoneId": "acz-04-middle-gangetic-plains",
+          "agroClimaticZoneName": "Middle Gangetic Plains Region",
+          "states": ["Bihar", "Uttar Pradesh"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "Rabi: Mid-October to mid-November; Kharif: June–July",
+          "regionalNotes": "Bihar Koshi–Seemanchal Winter/Rabi maize achieves India's highest maize grain yields."
+        },
+        {
+          "agroClimaticZoneId": "acz-01-western-himalayan",
+          "agroClimaticZoneName": "Western Himalayan Region",
+          "states": ["Jammu & Kashmir", "Himachal Pradesh", "Uttarakhand"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Mid-May to June",
+          "regionalNotes": "Primary Kharif staple cereal in mid-hill rainfed terraces."
+        },
+        {
+          "agroClimaticZoneId": "acz-06-trans-gangetic-plains",
+          "agroClimaticZoneName": "Trans-Gangetic Plains Region",
+          "states": ["Punjab", "Haryana"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Kharif: June–July; Spring: February",
+          "regionalNotes": "Promoted by ICAR-IIMR and state KVKs as a water-saving Kharif alternative to paddy."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Zonal seasonal calendars verified by ICAR-IIMR Ludhiana.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Ludhiana",
+          "title": "All India Coordinated Research Project on Maize Advisories",
+          "year": 2023,
+          "url": "https://iimr.icar.gov.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 10,
+        "optimalMinC": 21,
+        "optimalMaxC": 27,
+        "heatStressThresholdC": 35,
+        "frostSensitivity": "High; frost damages leaves and kills seedlings."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Temperatures >35 °C at tasseling/silking desiccate pollen and impair kernel set.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Ludhiana",
+          "title": "Climatic Requirements for Maize",
+          "year": 2022,
+          "url": "https://iimr.icar.gov.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "moderate",
+        "seasonalMinMm": 500,
+        "seasonalMaxMm": 800,
+        "droughtTolerance": "Low to moderate; highly sensitive to moisture deficit during tasseling and silking.",
+        "waterloggingSensitivity": "Very high, especially in seedling and knee-high stages; ridge sowing advised in heavy monsoon soils."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Requires significantly less water than flooded paddy while yielding well under ridge-furrow drainage.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Ludhiana",
+          "title": "Water Management in Maize",
+          "year": 2023,
+          "url": "https://iimr.icar.gov.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Loam", "Sandy Loam", "Silt Loam", "Clay Loam"],
+        "indianSoilTypes": ["Deep Fertile Alluvial Loams", "Well-drained Red Loams", "Medium Black Soils"],
+        "phMin": 5.5,
+        "phMax": 7.5,
+        "drainageRequirement": "Strict; requires deep, fertile, organic-matter-rich, well-drained soils without waterlogging.",
+        "salinityToleranceNote": "Moderately sensitive to soil salinity.",
+        "salinityThresholdEcDsM": 1.7
+      },
+      "unit": "pH / dS/m",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "pH 5.5–7.5 verified by ICAR-IIMR; FAO salinity threshold ECe ~1.7 dS/m.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Ludhiana & FAO Irrigation Paper 29",
+          "title": "Soil and Drainage Management for Maize",
+          "year": 2023,
+          "url": "https://iimr.icar.gov.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 90,
+        "maxDays": 135,
+        "maturityNote": "Kharif hybrids mature in 90–110 days; Bihar/northern Rabi maize takes 125–135 days due to cool winter temperatures."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across extra-early, medium, and full-season Indian hybrids.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Ludhiana",
+          "title": "Maize Hybrids Released in India",
+          "year": 2023,
+          "url": "https://iimr.icar.gov.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [120, 150],
+        "phosphorusP2O5KgHa": [60, 75],
+        "potassiumK2OKgHa": [40, 60],
+        "secondaryAndMicronutrients": "Zinc sulfate @ 25 kg/ha in alluvial/calcareous soils to prevent white bud; Boron where deficient.",
+        "soilTestCalibrationNote": "Heavy feeder; split nitrogen across basal, knee-high (V6), and pre-tasseling stages."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "High-yield hybrid dose per ICAR-IIMR; rainfed composites receive ~80–100 kg N/ha.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Ludhiana",
+          "title": "Nutrient Management in Hybrid Maize",
+          "year": 2023,
+          "url": "https://iimr.icar.gov.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "moderate",
+        "recommendedIrrigationsRange": [2, 6],
+        "criticalGrowthStages": ["Seedling / Knee-high (25–30 DAS)", "Tasseling & Silking (50–65 DAS — peak sensitivity)", "Grain filling / Dough stage (75–90 DAS)"],
+        "managementNote": "Kharif crop uses 1–3 protective irrigations during dry spells; Rabi/Spring maize requires 5–6 timely irrigations."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across Kharif and Rabi maize systems.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Ludhiana",
+          "title": "Critical Irrigation Stages in Maize",
+          "year": 2023,
+          "url": "https://iimr.icar.gov.in/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": false,
+        "symbiontSpecies": null,
+        "estimatedFixationKgNHa": null,
+        "residualNitrogenCreditKgNHa": null,
+        "nodulationAndInoculationNote": "Non-legume cereal; does not fix atmospheric nitrogen symbiotically."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified non-nitrogen-fixing Poaceae cereal (null BNF).",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Ludhiana",
+          "title": "Nitrogen Physiology in Maize",
+          "year": 2022,
+          "url": "https://iimr.icar.gov.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Chickpea", "Pigeonpea", "Soybean", "Groundnut", "Mungbean"],
+        "beneficialSucceedingCrops": ["Wheat", "Chickpea", "Indian Mustard", "Potato"],
+        "incompatibleOrCautionSequences": [
+          "Avoid continuous Maize–Maize monoculture to curb Fall Armyworm (Spodoptera frugiperda), Maydis leaf blight, and Stalk Rot buildup."
+        ],
+        "agronomicRationale": "Maize–Wheat, Maize–Chickpea, and Maize–Mustard are highly productive water-saving alternatives to Rice–Wheat."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified by ICAR-IIMR and ICAR-IIFSR.",
+      "sources": [
+        {
+          "institute": "ICAR-IIMR, Ludhiana",
+          "title": "Maize-Based Diversification Systems",
+          "year": 2023,
+          "url": "https://iimr.icar.gov.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "Symbiotic nitrogen fixation values are marked null (not applicable) because maize is a non-legume cereal.",
+    "lastReviewedDate": "2026-03-15"
+  },
+  {
+    "id": "pigeonpea",
+    "cropName": "Pigeonpea (Red Gram)",
+    "localNames": ["Tur", "Arhar", "Toor", "Kandulu", "Togari", "Thuvarai"],
+    "scientificName": "Cajanus cajan",
+    "cropFamily": "Fabaceae",
+    "cropGroup": "Pulse",
+    "growingSeasons": {
+      "value": ["Kharif"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Long- and medium-duration Kharif rainy-season pulse; early-maturing northern varieties permit Maize/Wheat double cropping.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Pigeonpea Cultivation Package of Practices",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-09-western-plateau-hills",
+          "agroClimaticZoneName": "Western Plateau and Hills Region",
+          "states": ["Maharashtra", "Madhya Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Mid-June to early July",
+          "regionalNotes": "Marathwada and Vidarbha medium-duration cultivars often intercropped with soybean or sorghum."
+        },
+        {
+          "agroClimaticZoneId": "acz-10-southern-plateau-hills",
+          "agroClimaticZoneName": "Southern Plateau and Hills Region",
+          "states": ["Karnataka", "Telangana", "Andhra Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "June to July",
+          "regionalNotes": "Kalaburagi (Gulbarga) and Telangana rainfed Vertisol/Alfisol pulse belt."
+        },
+        {
+          "agroClimaticZoneId": "acz-05-upper-gangetic-plains",
+          "agroClimaticZoneName": "Upper Gangetic Plains Region",
+          "states": ["Uttar Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Early-duration: June; Long-duration: July",
+          "regionalNotes": "Early-maturing varieties (e.g., Pusa 992) clear fields by November for Rabi wheat."
+        },
+        {
+          "agroClimaticZoneId": "acz-08-central-plateau-hills",
+          "agroClimaticZoneName": "Central Plateau and Hills Region",
+          "states": ["Madhya Pradesh", "Uttar Pradesh"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "June to mid-July",
+          "regionalNotes": "Well-drained undulating uplands and bunded ridges."
+        },
+        {
+          "agroClimaticZoneId": "acz-13-gujarat-plains-hills",
+          "agroClimaticZoneName": "Gujarat Plains and Hills Region",
+          "states": ["Gujarat"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "June to July",
+          "regionalNotes": "Bharuch–Vadodara–Surat belt grown as sole or cotton-intercropped pulse."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified by ICAR-IIPR Kanpur and AICRP on Pigeonpea.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "AICRP on Pigeonpea Zonal Recommendations",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 18,
+        "optimalMinC": 26,
+        "optimalMaxC": 30,
+        "heatStressThresholdC": 38,
+        "frostSensitivity": "High; frost at flowering or podding causes severe blossom drop and seed injury."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "26–30 °C during Kharif vegetative growth; 17–22 °C post-rainy pod development.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Climatic Requirements for Pigeonpea",
+          "year": 2022,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "moderate",
+        "seasonalMinMm": 600,
+        "seasonalMaxMm": 650,
+        "droughtTolerance": "Very high once established due to deep taproot (>1.5 m) mining subsoil water.",
+        "waterloggingSensitivity": "Extremely high; standing water induces Phytophthora stem blight and asphyxiation."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Longer crop duration creates ~600–650 mm seasonal water demand despite strong drought endurance.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Water Management in Pigeonpea",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Loam", "Sandy Loam", "Clay Loam"],
+        "indianSoilTypes": ["Well-drained Black Cotton Soils (Vertisols)", "Alluvial Loams", "Red Loams"],
+        "phMin": 6.5,
+        "phMax": 8.5,
+        "drainageRequirement": "Strict requirement for ridge/raised-bed drainage on heavy clay soils.",
+        "salinityToleranceNote": "Sensitive to high salinity and sodicity.",
+        "salinityThresholdEcDsM": null
+      },
+      "unit": "pH",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "pH 6.5–8.5 (optimum 7.0–8.5 in black/alluvial soils) verified; single national ECe threshold unavailable.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Soil and Drainage Management for Red Gram",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 120,
+        "maxDays": 240,
+        "maturityNote": "Extra-early/early types mature in 120–145 days (North); medium types 160–180 days (Central/South); traditional long-duration 210–240 days (Eastern UP/Bihar)."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Wide maturity group spread across agro-climatic zones.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Maturity Groups of Indian Pigeonpea Cultivars",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [20, 25],
+        "phosphorusP2O5KgHa": [40, 50],
+        "potassiumK2OKgHa": [20, 20],
+        "secondaryAndMicronutrients": "Sulfur @ 20 kg/ha and Zinc where soil test deficient; Rhizobium + PSB inoculation.",
+        "soilTestCalibrationNote": "Starter nitrogen @ 20 kg/ha supports early seedling vigor prior to active root nodulation."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Standard ICAR-IIPR basal dose (20:50:20 kg NPK/ha).",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Integrated Nutrient Management in Pigeonpea",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "high",
+        "recommendedIrrigationsRange": [1, 2],
+        "criticalGrowthStages": ["Bud initiation / Pre-flowering (70–90 DAS)", "Pod filling (110–130 DAS)"],
+        "managementNote": "Mostly rainfed; 1–2 supplemental irrigations during dry post-monsoon pod fill boost yields by 25–40%."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified by ICAR-IIPR and KVK Kalaburagi.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Protective Irrigation in Red Gram",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": true,
+        "symbiontSpecies": "Bradyrhizobium spp. (cowpea miscellany group)",
+        "estimatedFixationKgNHa": [60, 150],
+        "residualNitrogenCreditKgNHa": [25, 45],
+        "nodulationAndInoculationNote": "Fixes substantial N over its long growing cycle and contributes nutrient-rich leaf litter fall (~1.5–2 t/ha)."
+      },
+      "unit": "kg N/ha",
+      "validationStatus": "provisional_regional",
+      "validationNote": "Total BNF varies widely between 130-day early types and 220-day long-duration varieties.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur & ICRISAT",
+          "title": "Biological Nitrogen Fixation and Leaf Fall Credit in Pigeonpea",
+          "year": 2021,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Sorghum", "Pearl Millet", "Maize", "Wheat"],
+        "beneficialSucceedingCrops": ["Wheat", "Sorghum", "Maize", "Pearl Millet"],
+        "incompatibleOrCautionSequences": [
+          "Avoid continuous pigeonpea in fields with Fusarium udum wilt or Sterility Mosaic Disease."
+        ],
+        "agronomicRationale": "Deep-rooted biological plough action breaks subsurface compaction and enriches topsoil via leaf-litter fall before cereals."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across Deccan and Indo-Gangetic pulse systems.",
+      "sources": [
+        {
+          "institute": "ICAR-IIPR, Kanpur",
+          "title": "Pigeonpea in Sustainable Rotations",
+          "year": 2023,
+          "url": "https://iipr.icar.gov.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "A single national ECe salinity cutoff is marked unavailable (null) across maturity groups.",
+    "lastReviewedDate": "2026-03-15"
+  },
+  {
+    "id": "groundnut",
+    "cropName": "Groundnut (Peanut)",
+    "localNames": ["Moongphali", "Singdana", "Verkadalai", "Verusenaga", "Kadalekai"],
+    "scientificName": "Arachis hypogaea",
+    "cropFamily": "Fabaceae",
+    "cropGroup": "Oilseed",
+    "growingSeasons": {
+      "value": ["Kharif", "Rabi", "Summer"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Major Kharif rainfed oilseed (~75% area) plus irrigated Rabi/Summer groundnut in coastal and southern India.",
+      "sources": [
+        {
+          "institute": "ICAR-DGR (Directorate of Groundnut Research, Junagadh)",
+          "title": "Groundnut Production Technology Manual",
+          "year": 2023,
+          "url": "https://dgr.icar.gov.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-13-gujarat-plains-hills",
+          "agroClimaticZoneName": "Gujarat Plains and Hills Region",
+          "states": ["Gujarat"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Kharif: Mid-June to early July; Summer: February",
+          "regionalNotes": "Saurashtra belt accounts for India's highest groundnut output on well-drained medium black/sandy-loam soils."
+        },
+        {
+          "agroClimaticZoneId": "acz-10-southern-plateau-hills",
+          "agroClimaticZoneName": "Southern Plateau and Hills Region",
+          "states": ["Andhra Pradesh", "Karnataka", "Telangana", "Tamil Nadu"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "Kharif: June–July; Rabi: November–December",
+          "regionalNotes": "Rayalaseema (Anantapur) and Chitradurga rainfed red sandy loams plus irrigated Rabi pockets."
+        },
+        {
+          "agroClimaticZoneId": "acz-14-western-dry",
+          "agroClimaticZoneName": "Western Dry Region",
+          "states": ["Rajasthan"],
+          "primarySeason": "Kharif",
+          "typicalSowingWindow": "May–June (irrigated canal pockets) to July",
+          "regionalNotes": "Expanding irrigated Kharif groundnut hub in Bikaner and Jodhpur sandy belts."
+        },
+        {
+          "agroClimaticZoneId": "acz-11-east-coast-plains",
+          "agroClimaticZoneName": "East Coast Plains and Hills Region",
+          "states": ["Andhra Pradesh", "Odisha", "Tamil Nadu"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "November to December (rice-fallow residual/irrigated)",
+          "regionalNotes": "High pod yields in coastal alluvial sandy-loam deltas after Kharif paddy."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Zonal suitability verified by ICAR-DGR Junagadh and KVK Anantapur/Rajkot.",
+      "sources": [
+        {
+          "institute": "ICAR-DGR, Junagadh",
+          "title": "Zone-Wise Groundnut Cultivation Practices",
+          "year": 2023,
+          "url": "https://dgr.icar.gov.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 18,
+        "optimalMinC": 25,
+        "optimalMaxC": 30,
+        "heatStressThresholdC": 35,
+        "frostSensitivity": "High; strictly frost-free growing period required."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Warm sunlight and 25–30 °C favor rapid flowering, pegging, and pod filling.",
+      "sources": [
+        {
+          "institute": "ICAR-DGR, Junagadh",
+          "title": "Agrometeorology of Groundnut",
+          "year": 2022,
+          "url": "https://dgr.icar.gov.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "moderate",
+        "seasonalMinMm": 450,
+        "seasonalMaxMm": 650,
+        "droughtTolerance": "Moderate; tolerates early vegetative dry spells but vulnerable during pegging and pod development.",
+        "waterloggingSensitivity": "High; heavy/wet soils impede peg penetration and promote pod rot / aflatoxin."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Well-distributed 450–650 mm across 100–125 days.",
+      "sources": [
+        {
+          "institute": "ICAR-DGR, Junagadh",
+          "title": "Water Management in Kharif & Summer Groundnut",
+          "year": 2023,
+          "url": "https://dgr.icar.gov.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Sandy Loam", "Loamy Sand", "Loam"],
+        "indianSoilTypes": ["Well-drained Red Sandy Loams (Alfisols)", "Light Calcareous Alluvial Soils"],
+        "phMin": 6.0,
+        "phMax": 7.5,
+        "drainageRequirement": "Friable, loose, well-drained surface soil essential for underground peg penetration and clean pod harvest.",
+        "salinityToleranceNote": "Moderately sensitive to salinity; gypsum application counters calcium deficiency and sodicity.",
+        "salinityThresholdEcDsM": 3.2
+      },
+      "unit": "pH / dS/m",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "pH 6.0–7.5 verified by ICAR-DGR; FAO ECe threshold ~3.2 dS/m.",
+      "sources": [
+        {
+          "institute": "ICAR-DGR, Junagadh & FAO Irrigation Paper 29",
+          "title": "Soil Requirements for Groundnut",
+          "year": 2023,
+          "url": "https://dgr.icar.gov.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 100,
+        "maxDays": 130,
+        "maturityNote": "Spanish bunch types mature in 100–110 days; Virginia runner types require 120–130 days."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across Spanish bunch and Virginia habit groups.",
+      "sources": [
+        {
+          "institute": "ICAR-DGR, Junagadh",
+          "title": "Improved Groundnut Varieties",
+          "year": 2023,
+          "url": "https://dgr.icar.gov.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [12, 25],
+        "phosphorusP2O5KgHa": [25, 50],
+        "potassiumK2OKgHa": [50, 50],
+        "secondaryAndMicronutrients": "Gypsum @ 500 kg/ha applied near root zone at flowering/pegging (35–40 DAS) for Calcium & Sulfur pod filling; Iron/Boron where deficient.",
+        "soilTestCalibrationNote": "Rainfed starter dose: 12.5:25:50 kg/ha; irrigated/summer dose: 25:50:50 kg/ha + 10–12.5 t/ha FYM."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Calcium via pegging-stage gypsum is uniquely critical to prevent empty pods (pops).",
+      "sources": [
+        {
+          "institute": "ICAR-DGR, Junagadh",
+          "title": "Nutrient & Gypsum Management in Groundnut",
+          "year": 2023,
+          "url": "https://dgr.icar.gov.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "high",
+        "recommendedIrrigationsRange": [0, 8],
+        "criticalGrowthStages": ["Flowering (25–30 DAS)", "Pegging & gynophore penetration (40–50 DAS)", "Pod development & filling (60–85 DAS)"],
+        "managementNote": "Kharif requires 0–2 supplemental irrigations during dry spells; irrigated Summer groundnut uses 7–9 light sprinkler/furrow irrigations."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Critical pegging/pod-fill moisture stages verified by ICAR-DGR.",
+      "sources": [
+        {
+          "institute": "ICAR-DGR, Junagadh",
+          "title": "Irrigation Scheduling in Groundnut",
+          "year": 2023,
+          "url": "https://dgr.icar.gov.in/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": true,
+        "symbiontSpecies": "Bradyrhizobium spp. (Arachis group)",
+        "estimatedFixationKgNHa": [60, 120],
+        "residualNitrogenCreditKgNHa": [20, 35],
+        "nodulationAndInoculationNote": "Seed inoculation with Bradyrhizobium is essential in virgin or cereal-heavy fields; avoid excess starter N."
+      },
+      "unit": "kg N/ha",
+      "validationStatus": "provisional_regional",
+      "validationNote": "BNF fluctuates with soil moisture during pegging and native soil calcium/molybdenum status.",
+      "sources": [
+        {
+          "institute": "ICAR-DGR, Junagadh",
+          "title": "Rhizobial Biofertilization in Groundnut",
+          "year": 2022,
+          "url": "https://dgr.icar.gov.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Pearl Millet", "Sorghum", "Rice", "Wheat", "Maize"],
+        "beneficialSucceedingCrops": ["Wheat", "Sorghum", "Pearl Millet", "Maize"],
+        "incompatibleOrCautionSequences": [
+          "Avoid continuous groundnut monoculture due to Stem Rot (Sclerotium rolfsii), Collar Rot, and Leaf Spot buildup."
+        ],
+        "agronomicRationale": "Groundnut–Wheat and Rice–Rabi Groundnut rotations break fungal pathogen cycles while leaving biological N for succeeding cereals."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across Saurashtra and Coastal Andhra Pradesh KVK trials.",
+      "sources": [
+        {
+          "institute": "ICAR-DGR, Junagadh",
+          "title": "Groundnut-Based Cropping Systems",
+          "year": 2023,
+          "url": "https://dgr.icar.gov.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "All core parameters verified or regionally bounded; cultivar-specific pod-rot risk depends on local drainage and seasonal rainfall.",
+    "lastReviewedDate": "2026-03-15"
+  },
+  {
+    "id": "indian-mustard",
+    "cropName": "Indian Mustard (Sarson)",
+    "localNames": ["Sarson", "Rai", "Raya", "Laha", "Kadugu"],
+    "scientificName": "Brassica juncea",
+    "cropFamily": "Brassicaceae",
+    "cropGroup": "Oilseed",
+    "growingSeasons": {
+      "value": ["Rabi"],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Major winter Rabi oilseed crop accounting for >75% of India's rapeseed-mustard production.",
+      "sources": [
+        {
+          "institute": "ICAR-DRMR (Directorate of Rapeseed-Mustard Research, Bharatpur)",
+          "title": "Package of Practices for Indian Mustard",
+          "year": 2023,
+          "url": "https://www.drmr.res.in/"
+        }
+      ]
+    },
+    "regionalSuitability": {
+      "value": [
+        {
+          "agroClimaticZoneId": "acz-06-trans-gangetic-plains",
+          "agroClimaticZoneName": "Trans-Gangetic Plains Region",
+          "states": ["Rajasthan", "Haryana", "Punjab"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "Mid-October to first week of November",
+          "regionalNotes": "Alwar–Bharatpur–Hisar–Ganganagar core mustard belt; thrives with 1–2 irrigations where wheat irrigation is scarce."
+        },
+        {
+          "agroClimaticZoneId": "acz-05-upper-gangetic-plains",
+          "agroClimaticZoneName": "Upper Gangetic Plains Region",
+          "states": ["Uttar Pradesh"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "October 15 to November 10",
+          "regionalNotes": "Agra–Mathura–Western UP sandy-loam and alluvial belt."
+        },
+        {
+          "agroClimaticZoneId": "acz-08-central-plateau-hills",
+          "agroClimaticZoneName": "Central Plateau and Hills Region",
+          "states": ["Madhya Pradesh", "Rajasthan", "Uttar Pradesh"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "Mid-October to early November",
+          "regionalNotes": "Morena–Bhind–Chambal belt with high oil-content mustard cultivation."
+        },
+        {
+          "agroClimaticZoneId": "acz-13-gujarat-plains-hills",
+          "agroClimaticZoneName": "Gujarat Plains and Hills Region",
+          "states": ["Gujarat"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "October 15 to November 5",
+          "regionalNotes": "Banaskantha–Mehsana light-textured irrigated belt."
+        },
+        {
+          "agroClimaticZoneId": "acz-03-lower-gangetic-plains",
+          "agroClimaticZoneName": "Lower Gangetic Plains Region",
+          "states": ["West Bengal"],
+          "primarySeason": "Rabi",
+          "typicalSowingWindow": "Late October to November",
+          "regionalNotes": "Short-duration mustard/toria follows early Kharif rice."
+        }
+      ],
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Sowing windows verified by ICAR-DRMR Bharatpur.",
+      "sources": [
+        {
+          "institute": "ICAR-DRMR, Bharatpur",
+          "title": "Rapeseed-Mustard Zonal Advisories",
+          "year": 2023,
+          "url": "https://www.drmr.res.in/"
+        }
+      ]
+    },
+    "temperatureRequirements": {
+      "value": {
+        "germinationMinC": 10,
+        "optimalMinC": 10,
+        "optimalMaxC": 25,
+        "heatStressThresholdC": 30,
+        "frostSensitivity": "Moderate to high; severe January frost damages open flowers and siliquae (pods)."
+      },
+      "unit": "°C",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Sowing optimum 15–25 °C; >28–30 °C at sowing causes seedling mortality, and terminal heat >30 °C reduces seed oil %.",
+      "sources": [
+        {
+          "institute": "ICAR-DRMR, Bharatpur",
+          "title": "Weather and Mustard Productivity",
+          "year": 2022,
+          "url": "https://www.drmr.res.in/"
+        }
+      ]
+    },
+    "waterRequirements": {
+      "value": {
+        "category": "low",
+        "seasonalMinMm": 240,
+        "seasonalMaxMm": 400,
+        "droughtTolerance": "High; excels in conserved-moisture and limited-irrigation semi-arid zones.",
+        "waterloggingSensitivity": "High; sensitive to excess water or poor drainage."
+      },
+      "unit": "mm/season",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Substantially lower water duty than Rabi wheat (saves ~200–250 mm).",
+      "sources": [
+        {
+          "institute": "ICAR-DRMR, Bharatpur",
+          "title": "Water Productivity in Indian Mustard",
+          "year": 2023,
+          "url": "https://www.drmr.res.in/"
+        }
+      ]
+    },
+    "soilPreferences": {
+      "value": {
+        "preferredTextures": ["Sandy Loam", "Loam"],
+        "indianSoilTypes": ["Light Alluvial Loams", "Sandy Loams"],
+        "phMin": 6.5,
+        "phMax": 7.5,
+        "drainageRequirement": "Well-drained light to medium loams; avoid heavy waterlogged clays.",
+        "salinityToleranceNote": "Tolerates slight to moderate salinity/alkalinity better than pulses; salt-tolerant lines (e.g., CS 52, CS 56, CS 60) developed for saline tracts.",
+        "salinityThresholdEcDsM": null
+      },
+      "unit": "pH",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "pH 6.5–7.5 verified (tolerates up to mild alkalinity); universal ECe cutoff unavailable due to salt-tolerant CS cultivars.",
+      "sources": [
+        {
+          "institute": "ICAR-DRMR, Bharatpur & ICAR-CSSRI, Karnal",
+          "title": "Mustard Soil and Salt-Tolerance Profile",
+          "year": 2023,
+          "url": "https://www.drmr.res.in/"
+        }
+      ]
+    },
+    "growingDuration": {
+      "value": {
+        "minDays": 110,
+        "maxDays": 145,
+        "maturityNote": "Early varieties mature in 110–120 days; main-season high-oil varieties mature in 130–145 days."
+      },
+      "unit": "days",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified across major Indian mustard cultivars.",
+      "sources": [
+        {
+          "institute": "ICAR-DRMR, Bharatpur",
+          "title": "Mustard Varietal Compendium",
+          "year": 2023,
+          "url": "https://www.drmr.res.in/"
+        }
+      ]
+    },
+    "nutrientRequirements": {
+      "value": {
+        "nitrogenKgHa": [60, 80],
+        "phosphorusP2O5KgHa": [30, 40],
+        "potassiumK2OKgHa": [0, 20],
+        "secondaryAndMicronutrients": "Sulfur @ 20–40 kg S/ha is essential for oil synthesis and glucosinolate balance; Boron @ 1 kg/ha where deficient.",
+        "soilTestCalibrationNote": "Rainfed crops use ~40:20:0 kg/ha; irrigated crops use 60–80:40:20 kg/ha + Sulfur."
+      },
+      "unit": "kg/ha",
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Sulfur requirement verified by ICAR-DRMR across oilseed trials.",
+      "sources": [
+        {
+          "institute": "ICAR-DRMR, Bharatpur",
+          "title": "Balanced Nutrition & Sulfur Management in Mustard",
+          "year": 2023,
+          "url": "https://www.drmr.res.in/"
+        }
+      ]
+    },
+    "irrigationNeeds": {
+      "value": {
+        "rainfedViability": "high",
+        "recommendedIrrigationsRange": [2, 3],
+        "criticalGrowthStages": ["Rosette / Branching (25–30 DAS)", "Siliqua (pod) formation (55–65 DAS)"],
+        "managementNote": "Often succeeds with 1–2 irrigations; avoid heavy irrigation during peak flowering/frost risk."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Two-stage critical irrigation guidance verified by ICAR-DRMR.",
+      "sources": [
+        {
+          "institute": "ICAR-DRMR, Bharatpur",
+          "title": "Irrigation Guidelines for Mustard",
+          "year": 2023,
+          "url": "https://www.drmr.res.in/"
+        }
+      ]
+    },
+    "nitrogenFixationCharacteristics": {
+      "value": {
+        "fixesAtmosphericNitrogen": false,
+        "symbiontSpecies": null,
+        "estimatedFixationKgNHa": null,
+        "residualNitrogenCreditKgNHa": null,
+        "nodulationAndInoculationNote": "Non-legume Brassicaceae crop; does not fix atmospheric N biologically (Azotobacter seed treatment used as associative PGPR)."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified non-nitrogen-fixing oilseed (null BNF).",
+      "sources": [
+        {
+          "institute": "ICAR-DRMR, Bharatpur",
+          "title": "Biofertilizers in Rapeseed-Mustard",
+          "year": 2022,
+          "url": "https://www.drmr.res.in/"
+        }
+      ]
+    },
+    "cropRotationCompatibility": {
+      "value": {
+        "beneficialPrecedingCrops": ["Pearl Millet", "Soybean", "Mungbean", "Maize", "Cluster Bean (Guar)"],
+        "beneficialSucceedingCrops": ["Pearl Millet", "Mungbean", "Maize", "Sorghum"],
+        "incompatibleOrCautionSequences": [
+          "Avoid continuous mustard monocropping where Orobanche aegyptiaca (broomrape) or Alternaria blight / Sclerotinia stem rot is severe."
+        ],
+        "agronomicRationale": "Pearl Millet–Mustard and Cluster Bean–Mustard are drought-adapted staples; non-host Kharif cereals suppress Orobanche seedbanks."
+      },
+      "validationStatus": "icar_kvk_verified",
+      "validationNote": "Verified by ICAR-DRMR Bharatpur and KVK Alwar/Hisar.",
+      "sources": [
+        {
+          "institute": "ICAR-DRMR, Bharatpur",
+          "title": "Mustard-Based Cropping Systems & Orobanche Management",
+          "year": 2023,
+          "url": "https://www.drmr.res.in/"
+        }
+      ]
+    },
+    "unavailableParametersNote": "Universal ECe salinity cutoff unavailable due to wide spread between standard vs. CS salt-tolerant cultivars; symbiotic BNF not applicable (null).",
+    "lastReviewedDate": "2026-03-15"
+  }
+]

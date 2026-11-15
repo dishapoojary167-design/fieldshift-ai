@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": "FieldShift AI",
+  "challenge": "NASA Space Apps 2026 - Field Shift: Adapting Farms with NASA Data",
+  "datasets": [
+    {
+      "id": "nasa-power",
+      "source": "NASA POWER",
+      "domain": "environmental",
+      "status": "active"
+    },
+    {
+      "id": "nasa-smap",
+      "source": "NASA SMAP",
+      "domain": "soil-moisture",
+      "status": "active"
+    },
+    {
+      "id": "soilgrids-v2",
+      "source": "ISRIC SoilGrids v2.0",
+      "domain": "soil-properties",
+      "status": "active"
+    },
+    {
+      "id": "crop-adaptation-kb",
+      "source": "ICAR Institutes, KVK Advisories & Planning Commission Agro-Climatic Zones",
+      "domain": "agricultural-knowledge",
+      "status": "active"
+    }
+  ]
+}
